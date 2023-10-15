@@ -1,0 +1,391 @@
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: currentScreenLayout - com valor: TELA CHEIA
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: currentPlaylist - com valor: CONTEUDO
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: currentVolume - com valor: 100
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: lockTaskMode - com valor: 
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: lockTaskApplication - com valor: 
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: deviceAdmin - com valor: 
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: deviceOwner - com valor: 
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: rooted - com valor: 1
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: timeZone - com valor: America/Recife
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: ipAddressInternal - com valor: 192.168.0.100
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: lastDisplayedFile - com valor: CONTEUDO/MIDIAINDOOR/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: storageSpaceTotal - com valor: 4594073600
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: storageSpaceFree - com valor: 2940436480
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: hardwareModel - com valor: STV-3000
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: softwareVersionCode - com valor: 231
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: softwareVersion - com valor: 4.4.7
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: appUptime - com valor: 1697298679843
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: deviceName - com valor: STV-3000PRO-NDOOHR_v1.1
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: uptime - com valor: 1697298648137
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: deviceId - com valor: 625185d4fda711ab
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: androidVersion - com valor: 7.1.2
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: macAddress - com valor: 20:32:33:54:F8:C6
+[ 15/10/2023 01:05:31 PM ] Verificando dispositivo 20323354F8C6
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: currentScreenLayout - com valor: TELA CHEIA
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: currentPlaylist - com valor: CONTEUDO
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: currentVolume - com valor: 100
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: lockTaskMode - com valor: 
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: lockTaskApplication - com valor: 
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: deviceAdmin - com valor: 
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: deviceOwner - com valor: 
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: rooted - com valor: 1
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: timeZone - com valor: America/Recife
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: ipAddressInternal - com valor: 192.168.0.100
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: lastDisplayedFile - com valor: CONTEUDO/MIDIAINDOOR/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: storageSpaceTotal - com valor: 4594073600
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: storageSpaceFree - com valor: 2940436480
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: hardwareModel - com valor: STV-3000
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: softwareVersionCode - com valor: 231
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: softwareVersion - com valor: 4.4.7
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: appUptime - com valor: 1697298679843
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: deviceName - com valor: STV-3000PRO-NDOOHR_v1.1
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: uptime - com valor: 1697298648137
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: deviceId - com valor: 625185d4fda711ab
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: androidVersion - com valor: 7.1.2
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: macAddress - com valor: 20:32:33:54:F8:C6
+[ 15/10/2023 01:05:31 PM ] Verificando dispositivo 20323354F8C6
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: currentScreenLayout - com valor: TELA CHEIA
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: currentPlaylist - com valor: CONTEUDO
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: currentVolume - com valor: 100
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: lockTaskMode - com valor: 
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: lockTaskApplication - com valor: 
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: deviceAdmin - com valor: 
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: deviceOwner - com valor: 
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: rooted - com valor: 1
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: timeZone - com valor: America/Recife
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: ipAddressInternal - com valor: 192.168.0.100
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: lastDisplayedFile - com valor: CONTEUDO/MIDIAINDOOR/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: storageSpaceTotal - com valor: 4594073600
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: storageSpaceFree - com valor: 2940436480
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: hardwareModel - com valor: STV-3000
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: softwareVersionCode - com valor: 231
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: softwareVersion - com valor: 4.4.7
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: appUptime - com valor: 1697298679843
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: deviceName - com valor: STV-3000PRO-NDOOHR_v1.1
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: uptime - com valor: 1697298648137
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: deviceId - com valor: 625185d4fda711ab
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: androidVersion - com valor: 7.1.2
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: macAddress - com valor: 20:32:33:54:F8:C6
+[ 15/10/2023 01:05:31 PM ] Verificando dispositivo 20323354F8C6
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: currentScreenLayout - com valor: TELA CHEIA
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: currentPlaylist - com valor: CONTEUDO
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: currentVolume - com valor: 100
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: lockTaskMode - com valor: 
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: lockTaskApplication - com valor: 
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: deviceAdmin - com valor: 
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: deviceOwner - com valor: 
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: rooted - com valor: 1
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: timeZone - com valor: America/Recife
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: ipAddressInternal - com valor: 192.168.0.100
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: lastDisplayedFile - com valor: CONTEUDO/MIDIAINDOOR/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: storageSpaceTotal - com valor: 4594073600
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: storageSpaceFree - com valor: 2940436480
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: hardwareModel - com valor: STV-3000
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: softwareVersionCode - com valor: 231
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: softwareVersion - com valor: 4.4.7
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: appUptime - com valor: 1697298679843
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: deviceName - com valor: STV-3000PRO-NDOOHR_v1.1
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: uptime - com valor: 1697298648137
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: deviceId - com valor: 625185d4fda711ab
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: androidVersion - com valor: 7.1.2
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: macAddress - com valor: 20:32:33:54:F8:C6
+[ 15/10/2023 01:05:31 PM ] Verificando dispositivo 20323354F8C6
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: currentScreenLayout - com valor: TELA CHEIA
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: currentPlaylist - com valor: CONTEUDO
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: currentVolume - com valor: 100
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: lockTaskMode - com valor: 
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: lockTaskApplication - com valor: 
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: deviceAdmin - com valor: 
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: deviceOwner - com valor: 
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: rooted - com valor: 1
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: timeZone - com valor: America/Recife
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: ipAddressInternal - com valor: 192.168.0.100
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: lastDisplayedFile - com valor: CONTEUDO/MIDIAINDOOR/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: storageSpaceTotal - com valor: 4594073600
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: storageSpaceFree - com valor: 2940436480
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: hardwareModel - com valor: STV-3000
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: softwareVersionCode - com valor: 231
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: softwareVersion - com valor: 4.4.7
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: appUptime - com valor: 1697298679843
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: deviceName - com valor: STV-3000PRO-NDOOHR_v1.1
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: uptime - com valor: 1697298648137
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: deviceId - com valor: 625185d4fda711ab
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: androidVersion - com valor: 7.1.2
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: macAddress - com valor: 20:32:33:54:F8:C6
+[ 15/10/2023 01:05:31 PM ] Verificando dispositivo 20323354F8C6
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: currentScreenLayout - com valor: TELA CHEIA
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: currentPlaylist - com valor: CONTEUDO
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: currentVolume - com valor: 100
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: lockTaskMode - com valor: 
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: lockTaskApplication - com valor: 
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: deviceAdmin - com valor: 
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: deviceOwner - com valor: 
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: rooted - com valor: 1
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: timeZone - com valor: America/Recife
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: ipAddressInternal - com valor: 192.168.0.100
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: lastDisplayedFile - com valor: CONTEUDO/MIDIAINDOOR/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: storageSpaceTotal - com valor: 4594073600
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: storageSpaceFree - com valor: 2940436480
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: hardwareModel - com valor: STV-3000
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: softwareVersionCode - com valor: 231
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: softwareVersion - com valor: 4.4.7
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: appUptime - com valor: 1697298679843
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: deviceName - com valor: STV-3000PRO-NDOOHR_v1.1
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: uptime - com valor: 1697298648137
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: deviceId - com valor: 625185d4fda711ab
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: androidVersion - com valor: 7.1.2
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: macAddress - com valor: 20:32:33:54:F8:C6
+[ 15/10/2023 01:05:31 PM ] Verificando dispositivo 20323354F8C6
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: currentScreenLayout - com valor: TELA CHEIA
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: currentPlaylist - com valor: CONTEUDO
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: currentVolume - com valor: 100
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: lockTaskMode - com valor: 
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: lockTaskApplication - com valor: 
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: deviceAdmin - com valor: 
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: deviceOwner - com valor: 
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: rooted - com valor: 1
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: timeZone - com valor: America/Recife
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: ipAddressInternal - com valor: 192.168.0.100
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: lastDisplayedFile - com valor: CONTEUDO/MIDIAINDOOR/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: storageSpaceTotal - com valor: 4594073600
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: storageSpaceFree - com valor: 2940436480
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: hardwareModel - com valor: STV-3000
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: softwareVersionCode - com valor: 231
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: softwareVersion - com valor: 4.4.7
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: appUptime - com valor: 1697298679843
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: deviceName - com valor: STV-3000PRO-NDOOHR_v1.1
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: uptime - com valor: 1697298648137
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: deviceId - com valor: 625185d4fda711ab
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: androidVersion - com valor: 7.1.2
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: macAddress - com valor: 20:32:33:54:F8:C6
+[ 15/10/2023 01:05:31 PM ] Verificando dispositivo 20323354F8C6
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: currentScreenLayout - com valor: TELA CHEIA
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: currentPlaylist - com valor: CONTEUDO
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: currentVolume - com valor: 100
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: lockTaskMode - com valor: 
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: lockTaskApplication - com valor: 
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: deviceAdmin - com valor: 
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: deviceOwner - com valor: 
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: rooted - com valor: 1
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: timeZone - com valor: America/Recife
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: ipAddressInternal - com valor: 192.168.0.100
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: lastDisplayedFile - com valor: CONTEUDO/MIDIAINDOOR/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: storageSpaceTotal - com valor: 4594073600
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: storageSpaceFree - com valor: 2940436480
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: hardwareModel - com valor: STV-3000
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: softwareVersionCode - com valor: 231
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: softwareVersion - com valor: 4.4.7
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: appUptime - com valor: 1697298679843
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: deviceName - com valor: STV-3000PRO-NDOOHR_v1.1
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: uptime - com valor: 1697298648137
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: deviceId - com valor: 625185d4fda711ab
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: androidVersion - com valor: 7.1.2
+[ 15/10/2023 01:05:31 PM ] Cadastrando item do dispositivo: macAddress - com valor: 20:32:33:54:F8:C6
+[ 15/10/2023 01:05:31 PM ] Cadastrando dispositivo 20323354F8C6
+[ 15/10/2023 01:05:31 PM ] Verificando dispositivo 20323354F8C6
+[ 15/10/2023 01:05:31 PM ] Verificando novos dispositivos
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: currentScreenLayout - com valor: TELA CHEIA
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: currentPlaylist - com valor: CONTEUDO
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: currentVolume - com valor: 100
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: lockTaskMode - com valor: 
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: lockTaskApplication - com valor: 
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: deviceAdmin - com valor: 
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: deviceOwner - com valor: 
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: rooted - com valor: 1
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: timeZone - com valor: America/Recife
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: ipAddressInternal - com valor: 192.168.0.100
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: lastDisplayedFile - com valor: CONTEUDO/MIDIAINDOOR/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: storageSpaceTotal - com valor: 4594073600
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: storageSpaceFree - com valor: 2940436480
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: hardwareModel - com valor: STV-3000
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: softwareVersionCode - com valor: 231
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: softwareVersion - com valor: 4.4.7
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: appUptime - com valor: 1697298679843
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: deviceName - com valor: STV-3000PRO-NDOOHR_v1.1
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: uptime - com valor: 1697298648137
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: deviceId - com valor: 625185d4fda711ab
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: androidVersion - com valor: 7.1.2
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: macAddress - com valor: 20:32:33:54:F8:C6
+[ 15/10/2023 01:00:41 PM ] Verificando dispositivo 20323354F8C6
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: currentScreenLayout - com valor: TELA CHEIA
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: currentPlaylist - com valor: CONTEUDO
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: currentVolume - com valor: 100
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: lockTaskMode - com valor: 
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: lockTaskApplication - com valor: 
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: deviceAdmin - com valor: 
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: deviceOwner - com valor: 
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: rooted - com valor: 1
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: timeZone - com valor: America/Recife
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: ipAddressInternal - com valor: 192.168.0.100
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: lastDisplayedFile - com valor: CONTEUDO/MIDIAINDOOR/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: storageSpaceTotal - com valor: 4594073600
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: storageSpaceFree - com valor: 2940436480
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: hardwareModel - com valor: STV-3000
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: softwareVersionCode - com valor: 231
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: softwareVersion - com valor: 4.4.7
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: appUptime - com valor: 1697298679843
+[ 15/10/2023 01:00:41 PM ] Cadastrando item do dispositivo: deviceName - com valor: STV-3000PRO-NDOOHR_v1.1
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: uptime - com valor: 1697298648137
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: deviceId - com valor: 625185d4fda711ab
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: androidVersion - com valor: 7.1.2
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: macAddress - com valor: 20:32:33:54:F8:C6
+[ 15/10/2023 01:00:40 PM ] Verificando dispositivo 20323354F8C6
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: currentScreenLayout - com valor: TELA CHEIA
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: currentPlaylist - com valor: CONTEUDO
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: currentVolume - com valor: 100
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: lockTaskMode - com valor: 
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: lockTaskApplication - com valor: 
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: deviceAdmin - com valor: 
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: deviceOwner - com valor: 
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: rooted - com valor: 1
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: timeZone - com valor: America/Recife
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: ipAddressInternal - com valor: 192.168.0.100
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: lastDisplayedFile - com valor: CONTEUDO/MIDIAINDOOR/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: storageSpaceTotal - com valor: 4594073600
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: storageSpaceFree - com valor: 2940436480
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: hardwareModel - com valor: STV-3000
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: softwareVersionCode - com valor: 231
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: softwareVersion - com valor: 4.4.7
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: appUptime - com valor: 1697298679843
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: deviceName - com valor: STV-3000PRO-NDOOHR_v1.1
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: uptime - com valor: 1697298648137
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: deviceId - com valor: 625185d4fda711ab
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: androidVersion - com valor: 7.1.2
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: macAddress - com valor: 20:32:33:54:F8:C6
+[ 15/10/2023 01:00:40 PM ] Verificando dispositivo 20323354F8C6
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: currentScreenLayout - com valor: TELA CHEIA
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: currentPlaylist - com valor: CONTEUDO
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: currentVolume - com valor: 100
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: lockTaskMode - com valor: 
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: lockTaskApplication - com valor: 
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: deviceAdmin - com valor: 
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: deviceOwner - com valor: 
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: rooted - com valor: 1
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: timeZone - com valor: America/Recife
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: ipAddressInternal - com valor: 192.168.0.100
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: lastDisplayedFile - com valor: CONTEUDO/MIDIAINDOOR/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: storageSpaceTotal - com valor: 4594073600
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: storageSpaceFree - com valor: 2940436480
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: hardwareModel - com valor: STV-3000
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: softwareVersionCode - com valor: 231
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: softwareVersion - com valor: 4.4.7
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: appUptime - com valor: 1697298679843
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: deviceName - com valor: STV-3000PRO-NDOOHR_v1.1
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: uptime - com valor: 1697298648137
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: deviceId - com valor: 625185d4fda711ab
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: androidVersion - com valor: 7.1.2
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: macAddress - com valor: 20:32:33:54:F8:C6
+[ 15/10/2023 01:00:40 PM ] Verificando dispositivo 20323354F8C6
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: currentScreenLayout - com valor: TELA CHEIA
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: currentPlaylist - com valor: CONTEUDO
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: currentVolume - com valor: 100
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: lockTaskMode - com valor: 
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: lockTaskApplication - com valor: 
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: deviceAdmin - com valor: 
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: deviceOwner - com valor: 
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: rooted - com valor: 1
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: timeZone - com valor: America/Recife
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: ipAddressInternal - com valor: 192.168.0.100
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: lastDisplayedFile - com valor: CONTEUDO/MIDIAINDOOR/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: storageSpaceTotal - com valor: 4594073600
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: storageSpaceFree - com valor: 2940436480
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: hardwareModel - com valor: STV-3000
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: softwareVersionCode - com valor: 231
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: softwareVersion - com valor: 4.4.7
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: appUptime - com valor: 1697298679843
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: deviceName - com valor: STV-3000PRO-NDOOHR_v1.1
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: uptime - com valor: 1697298648137
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: deviceId - com valor: 625185d4fda711ab
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: androidVersion - com valor: 7.1.2
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: macAddress - com valor: 20:32:33:54:F8:C6
+[ 15/10/2023 01:00:40 PM ] Verificando dispositivo 20323354F8C6
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: currentScreenLayout - com valor: TELA CHEIA
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: currentPlaylist - com valor: CONTEUDO
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: currentVolume - com valor: 100
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: lockTaskMode - com valor: 
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: lockTaskApplication - com valor: 
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: deviceAdmin - com valor: 
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: deviceOwner - com valor: 
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: rooted - com valor: 1
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: timeZone - com valor: America/Recife
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: ipAddressInternal - com valor: 192.168.0.100
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: lastDisplayedFile - com valor: CONTEUDO/MIDIAINDOOR/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: storageSpaceTotal - com valor: 4594073600
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: storageSpaceFree - com valor: 2940436480
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: hardwareModel - com valor: STV-3000
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: softwareVersionCode - com valor: 231
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: softwareVersion - com valor: 4.4.7
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: appUptime - com valor: 1697298679843
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: deviceName - com valor: STV-3000PRO-NDOOHR_v1.1
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: uptime - com valor: 1697298648137
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: deviceId - com valor: 625185d4fda711ab
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: androidVersion - com valor: 7.1.2
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: macAddress - com valor: 20:32:33:54:F8:C6
+[ 15/10/2023 01:00:40 PM ] Verificando dispositivo 20323354F8C6
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: currentScreenLayout - com valor: TELA CHEIA
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: currentPlaylist - com valor: CONTEUDO
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: currentVolume - com valor: 100
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: lockTaskMode - com valor: 
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: lockTaskApplication - com valor: 
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: deviceAdmin - com valor: 
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: deviceOwner - com valor: 
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: rooted - com valor: 1
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: timeZone - com valor: America/Recife
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: ipAddressInternal - com valor: 192.168.0.100
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: lastDisplayedFile - com valor: CONTEUDO/MIDIAINDOOR/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: storageSpaceTotal - com valor: 4594073600
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: storageSpaceFree - com valor: 2940436480
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: hardwareModel - com valor: STV-3000
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: softwareVersionCode - com valor: 231
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: softwareVersion - com valor: 4.4.7
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: appUptime - com valor: 1697298679843
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: deviceName - com valor: STV-3000PRO-NDOOHR_v1.1
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: uptime - com valor: 1697298648137
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: deviceId - com valor: 625185d4fda711ab
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: androidVersion - com valor: 7.1.2
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: macAddress - com valor: 20:32:33:54:F8:C6
+[ 15/10/2023 01:00:40 PM ] Verificando dispositivo 20323354F8C6
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: currentScreenLayout - com valor: TELA CHEIA
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: currentPlaylist - com valor: CONTEUDO
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: currentVolume - com valor: 100
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: lockTaskMode - com valor: 
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: lockTaskApplication - com valor: 
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: deviceAdmin - com valor: 
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: deviceOwner - com valor: 
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: rooted - com valor: 1
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: timeZone - com valor: America/Recife
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: ipAddressInternal - com valor: 192.168.0.100
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: lastDisplayedFile - com valor: CONTEUDO/MIDIAINDOOR/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: storageSpaceTotal - com valor: 4594073600
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: storageSpaceFree - com valor: 2940436480
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: hardwareModel - com valor: STV-3000
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: softwareVersionCode - com valor: 231
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: softwareVersion - com valor: 4.4.7
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: appUptime - com valor: 1697298679843
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: deviceName - com valor: STV-3000PRO-NDOOHR_v1.1
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: uptime - com valor: 1697298648137
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: deviceId - com valor: 625185d4fda711ab
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: androidVersion - com valor: 7.1.2
+[ 15/10/2023 01:00:40 PM ] Cadastrando item do dispositivo: macAddress - com valor: 20:32:33:54:F8:C6
+[ 15/10/2023 01:00:40 PM ] Cadastrando dispositivo 20323354F8C6
+[ 15/10/2023 01:00:40 PM ] Verificando dispositivo 20323354F8C6
+[ 15/10/2023 01:00:40 PM ] Verificando novos dispositivos
+[ 15/10/2023 11:21:37 AM ] Verificando dispositivo 20323354F8C6
+[ 15/10/2023 11:21:37 AM ] Verificando dispositivo 20323354F8C6
+[ 15/10/2023 11:21:37 AM ] Verificando dispositivo 20323354F8C6
+[ 15/10/2023 11:21:37 AM ] Verificando dispositivo 20323354F8C6
+[ 15/10/2023 11:21:37 AM ] Verificando dispositivo 20323354F8C6
+[ 15/10/2023 11:21:37 AM ] Verificando dispositivo 20323354F8C6
+[ 15/10/2023 11:21:37 AM ] Verificando dispositivo 20323354F8C6
+[ 15/10/2023 11:21:37 AM ] Verificando dispositivo 20323354F8C6
+[ 15/10/2023 11:21:37 AM ] Verificando novos dispositivos
+[ 15/10/2023 11:15:35 AM ] Verificando dispositivo 20323354F8C6
+[ 15/10/2023 11:15:35 AM ] Verificando dispositivo 20323354F8C6
+[ 15/10/2023 11:15:35 AM ] Verificando dispositivo 20323354F8C6
+[ 15/10/2023 11:15:35 AM ] Verificando dispositivo 20323354F8C6
+[ 15/10/2023 11:15:35 AM ] Verificando dispositivo 20323354F8C6
+[ 15/10/2023 11:15:35 AM ] Verificando dispositivo 20323354F8C6
+[ 15/10/2023 11:15:35 AM ] Verificando dispositivo 20323354F8C6
+[ 15/10/2023 11:15:35 AM ] Cadastrando dispositivo 20323354F8C6
+[ 15/10/2023 11:15:35 AM ] Verificando dispositivo 20323354F8C6
+[ 15/10/2023 11:15:35 AM ] Verificando novos dispositivos

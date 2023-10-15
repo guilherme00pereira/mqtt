@@ -1,0 +1,20 @@
+{
+    "name": "g28/mqtt2",
+    "autoload": {
+        "psr-4": {
+            "G28\\MqttConnection\\": "src/"
+        },
+        "files": [
+            "src/startup.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Guilherme Pereira",
+            "email": "guilherme00pereira@gmail.com"
+        }
+    ],
+    "require": {
+        "sskaje/mqtt": "dev-master"
+    }
+}

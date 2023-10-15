@@ -1,0 +1,44 @@
+#server-data {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+#server-data input {
+    width: 500px;
+}
+#server-data label {
+    margin-right: 20px;
+}
+
+#device-data {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+#device-data input {
+    width: 600px;
+}
+
+.mqtt-action-button {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    border: none !important;
+}
+
+#mqtt-connection-next-file {
+    background-color: #BA55D3;
+}
+#mqtt-connection-full-screen {
+    background-color: #8A2BE2;
+}
+#mqtt-connection-set-colume {
+    background-color: #4169E1;
+}
+#mqtt-connection-reload-app {
+    background-color: #20B2AA;
+}
+#mqtt-connection-restart-device {
+    background-color: #228B22;
+}
