@@ -54,7 +54,7 @@ class Database
     {
         global $wpdb;
 
-        $sql = "select distinct(topic) as topic, utc, payload, server_id from " . Plugin::getInstance()->prefixTableName("data") . " order by utc desc limit 50";
+        $sql = "select topic, utc, payload, server_id from " . Plugin::getInstance()->prefixTableName("data") . " order by utc desc limit 100";
         return $wpdb->get_results($sql);
     }
 
@@ -67,5 +67,16 @@ class Database
             return $result[0]['ID'];
         }
         return 0;
+    }
+
+    public static function selectStatisticsAllDevices()
+    {
+        global $wpdb;
+
+        $sql = "select p.post_title as device, pm.meta_value as content from " . $wpdb->prefix . "posts p
+        inner join " . $wpdb->prefix . "postmeta pm on pm.post_id = p.ID
+        where meta_key = 'statistics' and
+        post_id in (select ID from wpen_posts where post_type = 'dispositivo')";
+        return $wpdb->get_results($sql);
     }
 }

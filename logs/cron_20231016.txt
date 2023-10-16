@@ -1,0 +1,10 @@
+[ 16/10/2023 11:46:42 AM ] Verificando dispositivo 20323354F8C6
+[ 16/10/2023 11:46:42 AM ] Verificando dispositivo 20323354F8C6
+[ 16/10/2023 11:46:42 AM ] Verificando dispositivo 20323354F8C6
+[ 16/10/2023 11:46:42 AM ] Verificando dispositivo 20323354F8C6
+[ 16/10/2023 11:46:42 AM ] Verificando dispositivo 20323354F8C6
+[ 16/10/2023 11:46:42 AM ] Verificando dispositivo 20323354F8C6
+[ 16/10/2023 11:46:42 AM ] Verificando dispositivo 20323354F8C6
+[ 16/10/2023 11:46:42 AM ] Verificando dispositivo 20323354F8C6
+[ 16/10/2023 11:46:42 AM ] Verificando novos dispositivos
+[ 16/10/2023 11:46:42 AM ] Failed to connect to ssl://550616c685364cf38062f7f3b14ed330.s1.eu.hivemq.cloud:8883

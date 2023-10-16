@@ -25,6 +25,9 @@ class Admin
 
     public function display_plugin_statistics(): void
     {
+        wp_enqueue_style( Plugin::getInstance()->getAssetsPrefix() . 'admin-stats' );
+        wp_enqueue_script( Plugin::getInstance()->getAssetsPrefix() . 'admin-stats' );
+
         if ( ! current_user_can( 'manage_options' ) ) {
             return;
         }
@@ -47,7 +50,22 @@ class Admin
             Plugin::getInstance()->getAssetsUrl() . 'js/admin-server.js',
             array( 'jquery' ),
             Plugin::getInstance()->getVersion(),
-            false
+            ['in-footer' => true]
+        );
+
+        wp_register_style( 
+            Plugin::getInstance()->getAssetsPrefix() . 'admin-stats',
+            Plugin::getInstance()->getAssetsUrl() . 'css/admin-stats.css',
+            array(),
+            Plugin::getInstance()->getVersion(),
+            'all'
+        );
+        wp_register_script( 
+            Plugin::getInstance()->getAssetsPrefix() . 'admin-stats',
+            Plugin::getInstance()->getAssetsUrl() . 'js/admin-stats.js',
+            array( 'jquery', 'jquery-ui-core', 'jquery-ui-tabs' ),
+            Plugin::getInstance()->getVersion(),
+            ['in-footer' => true]
         );
     }
 }

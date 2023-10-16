@@ -27,7 +27,7 @@ class CronEvents
 
     public function execute()
     {
-        //$this->connectAvailableServers();
+        $this->connectAvailableServers();
         $this->verifyNewDevices();
     }
 
@@ -75,23 +75,24 @@ class CronEvents
             foreach ($devices as $device) {
                 $deviceMAC = str_replace(['/RESP/', '/API'], '', $device->topic);
                 Logger::getInstance()->add("Verificando dispositivo " . $deviceMAC);
+                $payload = json_decode($device->payload);
                 $post_id = Database::deviceExist($deviceMAC);
+
                 if ($post_id === 0) {
-                    $payload = json_decode($device->payload);
                     if($payload->command === "deviceInfo") {
                         $payloadResult = $payload->result;
                         Logger::getInstance()->add("Cadastrando dispositivo " . $deviceMAC);
-                        $new_post_id = wp_insert_post([
+                        $post_id = wp_insert_post([
                             'post_title' => $deviceMAC,
                             'post_type' => 'dispositivo',
                             'post_status' => 'publish',
                             'post_parent' => $device->server_id,
                         ]);
-                        if (is_wp_error($new_post_id)) {
-                            Logger::getInstance()->add("Error ao cadastrar dispositivo " . $deviceMAC . " no banco de dados: " . $new_post_id->get_error_message());
+                        if (is_wp_error($post_id)) {
+                            Logger::getInstance()->add("Error ao cadastrar dispositivo " . $deviceMAC . " no banco de dados: " . $post_id->get_error_message());
                         } else {
-                            if ($new_post_id) {
-                                $this->saveDeviceMetaInfo($payloadResult, $new_post_id);
+                            if ( !empty( $post_id ) ) {
+                                $this->saveDeviceMetaInfo($payloadResult, $post_id);
                             }
                         }
                     }
@@ -99,6 +100,10 @@ class CronEvents
                 else
                 {
                     $this->saveDeviceMetaInfo($payloadResult, $post_id);
+                }
+
+                if($payload->command === "playStatistics" && !empty( $post_id )) {
+                    update_post_meta($post_id, 'statistics', $payload->result->statistics);
                 }
 
             }
@@ -115,38 +120,8 @@ class CronEvents
     public function saveDeviceMetaInfo($payloadResult, $new_post_id): void
     {
         foreach ($payloadResult as $key => $value) {
-            Logger::getInstance()->add("Cadastrando item do dispositivo: " . $key . " - com valor: " . $value);
             update_post_meta($new_post_id, $key, $value);
         }
     }
 
 }
-
-//{
-//    "command": "deviceInfo",
-//  "success": true,
-//  "result": {
-//    "macAddress": "20:32:33:54:F8:C6",
-//    "androidVersion": "7.1.2",
-//    "deviceId": "625185d4fda711ab",
-//    "uptime": 1697298648137,
-//    "deviceName": "STV-3000PRO-NDOOHR_v1.1",
-//    "appUptime": 1697298679843,
-//    "softwareVersion": "4.4.7",
-//    "softwareVersionCode": 231,
-//    "hardwareModel": "STV-3000",
-//    "storageSpaceFree": 2940436480,
-//    "storageSpaceTotal": 4594073600,
-//    "lastDisplayedFile": "CONTEUDO/MIDIAINDOOR/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4",
-//    "ipAddressInternal": "192.168.0.100",
-//    "timeZone": "America/Recife",
-//    "rooted": true,
-//    "deviceOwner": false,
-//    "deviceAdmin": false,
-//    "lockTaskApplication": false,
-//    "lockTaskMode": false,
-//    "currentVolume": 100,
-//    "currentPlaylist": "CONTEUDO",
-//    "currentScreenLayout": "TELA CHEIA"
-//  }
-//}
