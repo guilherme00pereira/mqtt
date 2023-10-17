@@ -23,3 +23,12 @@
 #gen_file_result {
     font-weight: bold;
 }
+
+.log-content {
+    margin: 0;
+    padding: 2rem;
+    height: 400px;
+    background-color: #F0F0F1;
+    border: 1px solid #DCDCDE;
+    overflow-y: auto;
+}

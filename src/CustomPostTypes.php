@@ -5,6 +5,7 @@ namespace G28\MqttConnection;
 class CustomPostTypes
 {
 
+    const META_SERVER_LAST_CONNECTION_STATUS = 'mqtt_connection_last_connection_status';
     public function __construct()
     {
         add_action( 'init', [$this, 'register_mqtts_post_type'] );
@@ -80,20 +81,20 @@ class CustomPostTypes
             'normal',
             'high'
         );
-        add_meta_box(
-            'actions',
-            'Ações',
-            [$this, 'render_server_actions'],
-            'servidor',
-            'side',
-            'default',
-        );
     }
 
     public function add_device_meta_boxes()
     {
         add_meta_box(
-            'device_address',
+            'device_stats',
+            'Estatísticas do Dispositivo',
+            [$this, 'render_device_stats'],
+            'dispositivo',
+            'normal',
+            'high'
+        );
+        add_meta_box(
+            'device_data',
             'Dados do Dispositivo',
             [$this, 'render_device_fields'],
             'dispositivo',
@@ -108,12 +109,21 @@ class CustomPostTypes
             'side',
             'default',
         );
+        add_meta_box(
+            'device_actions',
+            'Ações',
+            [$this, 'render_device_actions'],
+            'dispositivo',
+            'side',
+            'default',
+        );
     }
 
     public function add_server_columns( $columns )
     {
         $columns['server_address'] = 'Endereço';
         $columns['server_client_id'] = 'Client ID';
+        $columns['server_last_connection'] = "Última conexão";
         return $columns;
     }
 
@@ -125,11 +135,21 @@ class CustomPostTypes
         if( $column_id == 'server_client_id' ) {
             echo get_post_meta( get_the_ID(), 'server_client_id', true );
         }
+        if( $column_id == 'server_last_connection' ) {
+            $status = get_post_meta( get_the_ID(), 'mqtt_connection_last_connection_status', true );
+            if( 'error' === $status ) {
+                echo "<span style='color: white;background-color: #b22222;padding: 4px 8px;border-radius:1rem;'>falhou</span>";
+            } else {
+                echo "<span style='color: white;background-color: #38a138;padding: 4px 8px;border-radius:1rem;'>sucesso</span>";
+            }
+        }
     }
 
     public function add_device_columns( $columns )
     {
-        $columns['deviceName']          = 'Nome do Dispositivo';
+        unset($columns['author']);
+        $columns['server']              = "Servidor";
+        $columns['device_name']          = 'Nome do Dispositivo';
         $columns['device_client_name']  = 'Nome do Cliente';
         $columns['device_responsible']  = 'Responsável';
         $columns['device_contact']      = 'Contato';
@@ -138,7 +158,14 @@ class CustomPostTypes
 
     public function add_device_column_data( $column_id )
     {
-        if( $column_id == 'deviceName' ) {
+        if( $column_id == 'server') {
+            $post = get_post(get_the_ID());
+            $parent = get_post($post->post_parent);
+            $author = $parent->post_author;
+            $user = get_user_by( 'id', $author );
+            echo $parent->post_title . "<br />(" . $user->display_name . ")";
+        }
+        if( $column_id == 'device_name' ) {
             echo get_post_meta( get_the_ID(), 'deviceName', true );
         }
         if( $column_id == 'device_client_name' ) {
@@ -161,10 +188,17 @@ class CustomPostTypes
         echo ob_get_clean();
     }
 
-    public function render_server_actions( $post )
+    public function render_device_actions( $post )
     {
         ob_start();
-        include_once sprintf( "%sserver-actions.php", Plugin::getInstance()->getTemplateDir() );
+        include_once sprintf( "%sdevice-actions.php", Plugin::getInstance()->getTemplateDir() );
+        echo ob_get_clean();
+    }
+
+    public function render_device_stats( $post )
+    {
+        ob_start();
+        include_once sprintf( "%sdevice-stats.php", Plugin::getInstance()->getTemplateDir() );
         echo ob_get_clean();
     }
 

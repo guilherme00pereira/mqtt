@@ -79,4 +79,15 @@ class Database
         post_id in (select ID from wpen_posts where post_type = 'dispositivo')";
         return $wpdb->get_results($sql);
     }
+
+    public static function getDeviceStatistics( $post_id )
+    {
+        global $wpdb;
+
+        $sql = $wpdb->prepare("select p.post_title as device, pm.meta_value as content from " . $wpdb->prefix . "posts p
+        inner join " . $wpdb->prefix . "postmeta pm on pm.post_id = p.ID
+        where meta_key = 'statistics' and
+        post_id  = %s", $post_id);
+        return $wpdb->get_results($sql);
+    }
 }

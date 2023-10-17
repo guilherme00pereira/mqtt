@@ -1,8 +1,10 @@
 <?php
 
 use G28\MqttConnection\Database;
+use G28\MqttConnection\Logger;
 
 $stats = Database::selectStatisticsAllDevices();
+$log = Logger::getInstance()->getLogContent();
 
 ?>
 
@@ -14,7 +16,7 @@ $stats = Database::selectStatisticsAllDevices();
         <ul class="nav-tab-wrapper">
             <li class="nav-tab stats-tab"><a href="#tab-01">Estatísticas</a></li>
             <li class="nav-tab stats-tab"><a href="#tab-02">Gerador de Arquivo</a></li>
-            <li class="nav-tab stats-tab"><a href="#tab-02">Logs</a></li>
+            <li class="nav-tab stats-tab"><a href="#tab-03">Logs</a></li>
         </ul>
         <div class="tabs-content">
             <div id="tab-01" class="stats-tab-content">
@@ -34,7 +36,7 @@ $stats = Database::selectStatisticsAllDevices();
                             $minutes    = round( (int)$content->length / 3600, 2, PHP_ROUND_HALF_UP);
                             ?>
                             <tr>
-                                <td><?php echo $stat->device; ?></td>
+                                <td><a href="post.php?post=82&action=edit" target="_blank"><?php echo $stat->device; ?></a></td>
                                 <td><?php echo $content->item; ?></td>
                                 <td><?php echo $begin; ?></td>
                                 <td><?php echo $minutes; ?></td>
@@ -70,7 +72,9 @@ $stats = Database::selectStatisticsAllDevices();
                 </table>
             </div>
             <div id="tab-03" class="stats-tab-content">
-                exibir logs
+                <div id="logFileContent" class="log-content">
+                    <?php echo $log ?>
+                </div>
             </div>
         </div>
     </div>

@@ -60,7 +60,7 @@ class SubscribeCallback extends MessageHandler
                     )
                 );
                 if(is_bool($result) && $result === false) {
-                Logger::getInstance()->add("Inserção de retorno do servidor MQTT no banco falhou");
+                    Logger::getInstance()->add("Inserção de retorno do servidor MQTT no banco falhou");
                 } else {
                     Logger::getInstance()->add("Inserção no banco OK => {$result} linhas");
                 }

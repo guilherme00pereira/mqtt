@@ -36,4 +36,10 @@ class Logger
     public function clear(  ) {
         file_put_contents( Plugin::getInstance()->getLogDir() . $this->logFile, "");
     }
+
+    public function getLogContent(): string
+    {
+        $filepath = Plugin::getInstance()->getLogDir() . $this->logFile;
+        return nl2br(file_get_contents( $filepath ));
+    }
 }

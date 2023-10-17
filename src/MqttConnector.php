@@ -10,8 +10,10 @@ class MqttConnector
 
     protected array $server_data;
     private string $server_id;
+    const LOCK_OPTION = 'mqtt_connection_lock';
+    
 
-    public function __construct( $post_id, $data )
+    public function __construct($post_id, $data)
     {
         $this->server_id = $post_id;
         $this->server_data = $data;
@@ -19,32 +21,42 @@ class MqttConnector
 
     public function run()
     {
-        try {
-            $gmt_time = microtime( true );
-            $recycle_secs = intval($this->server_data['server_connection_recycle'][0]);
-            $mqtt = $this->buildMQTTClient();
-            $result = $mqtt->connect();
-            if (!($result)) {
-                Logger::getInstance()->add("Error connecting to server " . $this->server_data['server_address'][0]);
-                return;
-            } else {
-                Logger::getInstance()->add("Connected to server " . $this->server_data['server_address'][0]);
+        $lock_status = get_option(self::LOCK_OPTION);
+        if( !$lock_status ) {
+            add_option(self::LOCK_OPTION, 'unlocked');
+        }
+        if ($lock_status === 'unlocked') {
+            try {
+                update_option(self::LOCK_OPTION, 'locked');
+                $gmt_time = microtime(true);
+                $recycle_secs = intval($this->server_data['server_connection_recycle'][0]);
+                $mqtt = $this->buildMQTTClient();
+                $result = $mqtt->connect();
+                if (!($result)) {
+                    Logger::getInstance()->add("Error connecting to server " . $this->server_data['server_address'][0]);
+                    update_post_meta($this->server_id, CustomPostTypes::META_SERVER_LAST_CONNECTION_STATUS, 'error');
+                    return;
+                } else {
+                    Logger::getInstance()->add("Connected to server " . $this->server_data['server_address'][0]);
+                    update_post_meta($this->server_id, CustomPostTypes::META_SERVER_LAST_CONNECTION_STATUS, 'success');
+                }
+                $topics[$this->server_data['server_topic_filter'][0]] = 1;
+                Logger::getInstance()->add("Subscribing to topic " . $this->server_data['server_topic_filter'][0]);
+                $callback = new SubscribeCallback($this->server_id);
+                Logger::getInstance()->add("Setting handler");
+                $mqtt->setHandler($callback);
+                Logger::getInstance()->add("Subscribing");
+                $mqtt->subscribe($topics);
+                while ((microtime(true) - $gmt_time < $recycle_secs) && $mqtt->loop()) {
+                    Logger::getInstance()->add("Looping");
+                    set_time_limit(0);
+                }
+                Logger::getInstance()->add("Disconnecting");
+                update_option(self::LOCK_OPTION, 'unlocked');
+                $mqtt->disconnect();
+            } catch (Exception $error) {
+                Logger::getInstance()->add($error->getMessage());
             }
-            $topics[$this->server_data['server_topic_filter'][0]] = 1;
-            Logger::getInstance()->add("Subscribing to topic " . $this->server_data['server_topic_filter'][0]);
-            $callback = new SubscribeCallback($this->server_id);
-            Logger::getInstance()->add("Setting handler");
-            $mqtt->setHandler($callback);
-            Logger::getInstance()->add("Subscribing");
-            $mqtt->subscribe($topics);
-            while((microtime(true) - $gmt_time < $recycle_secs) && $mqtt->loop()) {
-                Logger::getInstance()->add("Looping");
-                set_time_limit(0);
-            }
-            Logger::getInstance()->add("Disconnecting");
-            $mqtt->disconnect();
-        }  catch (Exception $error) {
-            Logger::getInstance()->add($error->getMessage());
         }
     }
 
@@ -57,26 +69,28 @@ class MqttConnector
                 $mqtt->setVersion(MQTT::VERSION_3_1_1);
                 break;
             default:
-                $mqtt->setVersion(MQTT::VERSION_3_1 );
+                $mqtt->setVersion(MQTT::VERSION_3_1);
                 break;
         }
 
         if (strpos($this->server_data['server_address'][0], 'ssl://') === 0) {
-            $mqtt->setSocketContext(stream_context_create([
-                    'ssl' => [
-                        /*   'cafile'                => '/path/to/CACert-mqtt.crt',*/
-                        'verify_peer'           => false,
-                        'verify_peer_name'      => false,
-                        'disable_compression'   => true,
-                        'ciphers'               => 'ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES256-GCM-SHA384:DHE-RSA-AES128-GCM-SHA256:DHE-DSS-AES128-GCM-SHA256:kEDH+AESGCM:ECDHE-RSA-AES128-SHA256:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-SHA:ECDHE-ECDSA-AES128-SHA:ECDHE-RSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA384:ECDHE-RSA-AES256-SHA:ECDHE-ECDSA-AES256-SHA:DHE-RSA-AES128-SHA256:DHE-RSA-AES128-SHA:DHE-DSS-AES128-SHA256:DHE-RSA-AES256-SHA256:DHE-DSS-AES256-SHA:DHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:ECDHE-RSA-RC4-SHA:ECDHE-ECDSA-RC4-SHA:AES128:AES256:RC4-SHA:HIGH:!aNULL:!eNULL:!EXPORT:!DES:!3DES:!MD5:!PSK',
-                        'crypto_method'         => STREAM_CRYPTO_METHOD_TLSv1_2_CLIENT | STREAM_CRYPTO_METHOD_SSLv23_CLIENT,
-                        'SNI_enabled'           => true,
-                        'allow_self_signed'     => true
+            $mqtt->setSocketContext(
+                stream_context_create(
+                    [
+                        'ssl' => [
+                            /*   'cafile'                => '/path/to/CACert-mqtt.crt',*/
+                            'verify_peer' => false,
+                            'verify_peer_name' => false,
+                            'disable_compression' => true,
+                            'ciphers' => 'ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES256-GCM-SHA384:DHE-RSA-AES128-GCM-SHA256:DHE-DSS-AES128-GCM-SHA256:kEDH+AESGCM:ECDHE-RSA-AES128-SHA256:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-SHA:ECDHE-ECDSA-AES128-SHA:ECDHE-RSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA384:ECDHE-RSA-AES256-SHA:ECDHE-ECDSA-AES256-SHA:DHE-RSA-AES128-SHA256:DHE-RSA-AES128-SHA:DHE-DSS-AES128-SHA256:DHE-RSA-AES256-SHA256:DHE-DSS-AES256-SHA:DHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:ECDHE-RSA-RC4-SHA:ECDHE-ECDSA-RC4-SHA:AES128:AES256:RC4-SHA:HIGH:!aNULL:!eNULL:!EXPORT:!DES:!3DES:!MD5:!PSK',
+                            'crypto_method' => STREAM_CRYPTO_METHOD_TLSv1_2_CLIENT | STREAM_CRYPTO_METHOD_SSLv23_CLIENT,
+                            'SNI_enabled' => true,
+                            'allow_self_signed' => true
+                        ]
                     ]
-                ]
-            ));
-        }
-        else {
+                )
+            );
+        } else {
             $mqtt->setSocketContext(stream_context_create());
         }
 
