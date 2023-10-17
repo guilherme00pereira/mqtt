@@ -14,6 +14,7 @@ $stats = Database::selectStatisticsAllDevices();
         <ul class="nav-tab-wrapper">
             <li class="nav-tab stats-tab"><a href="#tab-01">Estatísticas</a></li>
             <li class="nav-tab stats-tab"><a href="#tab-02">Gerador de Arquivo</a></li>
+            <li class="nav-tab stats-tab"><a href="#tab-02">Logs</a></li>
         </ul>
         <div class="tabs-content">
             <div id="tab-01" class="stats-tab-content">
@@ -67,6 +68,9 @@ $stats = Database::selectStatisticsAllDevices();
                         </tr>
                     </tbody>
                 </table>
+            </div>
+            <div id="tab-03" class="stats-tab-content">
+                exibir logs
             </div>
         </div>
     </div>

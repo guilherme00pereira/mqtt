@@ -50,7 +50,7 @@ class Database
         
     }
 
-    public static function selectDistinctTopics()
+    public static function selectDevices()
     {
         global $wpdb;
 

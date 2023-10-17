@@ -36,12 +36,14 @@ class SubscribeCallback extends MessageHandler
                 Logger::getInstance()->add("Mqtt no publish object {$topic}, {$msg}, {$qos}, {$retain}");
                 return;
             }
+            $numObjs = count($publish_objectarr);
+            Logger::getInstance()->add("Mqtt publish object count: {$numObjs}");
 
             foreach($publish_objectarr as $publish_object) {
                 Logger::getInstance()->add("Inserindo no banco de dados");
 
                 $utc = date_format(new \DateTime(), 'Y-m-d H:i:s');
-                $wpdb->insert(
+                $result = $wpdb->insert(
                     $tableName,
                     array(
                         'utc'       => $utc,
@@ -57,6 +59,11 @@ class SubscribeCallback extends MessageHandler
                         '%s'
                     )
                 );
+                if(is_bool($result) && $result === false) {
+                Logger::getInstance()->add("Inserção de retorno do servidor MQTT no banco falhou");
+                } else {
+                    Logger::getInstance()->add("Inserção no banco OK => {$result} linhas");
+                }
             }
         }
         catch (Exception $e) {

@@ -27,8 +27,17 @@ class CronEvents
 
     public function execute()
     {
+        Logger::getInstance()->add("");
+        Logger::getInstance()->add("========== Executando cron ==========");
+        Logger::getInstance()->add("");
+
         $this->connectAvailableServers();
+
         $this->verifyNewDevices();
+
+        Logger::getInstance()->add("");
+        Logger::getInstance()->add("========== Finalizando execução do cron ==========");
+        Logger::getInstance()->add("");
     }
 
     public function cron_schedules( $schedules )
@@ -69,41 +78,48 @@ class CronEvents
 
     public function verifyNewDevices()
     {
+        $readedDevices = [];
         try {
             Logger::getInstance()->add("Verificando novos dispositivos");
-            $devices = Database::selectDistinctTopics();
+            $devices = Database::selectDevices();
             foreach ($devices as $device) {
                 $deviceMAC = str_replace(['/RESP/', '/API'], '', $device->topic);
-                Logger::getInstance()->add("Verificando dispositivo " . $deviceMAC);
-                $payload = json_decode($device->payload);
-                $post_id = Database::deviceExist($deviceMAC);
+                if(in_array($deviceMAC . "_S", $readedDevices) || in_array($deviceMAC . "_I", $readedDevices)) {
+                    continue;
+                } else {
+                    Logger::getInstance()->add("Verificando dispositivo " . $deviceMAC);
 
-                if ($post_id === 0) {
-                    if($payload->command === "deviceInfo") {
-                        $payloadResult = $payload->result;
-                        Logger::getInstance()->add("Cadastrando dispositivo " . $deviceMAC);
-                        $post_id = wp_insert_post([
-                            'post_title' => $deviceMAC,
-                            'post_type' => 'dispositivo',
-                            'post_status' => 'publish',
-                            'post_parent' => $device->server_id,
-                        ]);
-                        if (is_wp_error($post_id)) {
-                            Logger::getInstance()->add("Error ao cadastrar dispositivo " . $deviceMAC . " no banco de dados: " . $post_id->get_error_message());
-                        } else {
-                            if ( !empty( $post_id ) ) {
-                                $this->saveDeviceMetaInfo($payloadResult, $post_id);
+                    $payload = json_decode($device->payload);
+                    $payloadResult = $payload->result;
+                    $post_id = Database::deviceExist($deviceMAC);
+
+                    if ($post_id === 0) {
+                        if ($payload->command === "deviceInfo") {
+                            Logger::getInstance()->add("Cadastrando dispositivo " . $deviceMAC);
+                            $readedDevices[] = $deviceMAC . "_I";
+                            $post_id = wp_insert_post([
+                                'post_title' => $deviceMAC,
+                                'post_type' => 'dispositivo',
+                                'post_status' => 'publish',
+                                'post_parent' => $device->server_id,
+                            ]);
+                            if (is_wp_error($post_id)) {
+                                Logger::getInstance()->add("Error ao cadastrar dispositivo " . $deviceMAC . " no banco de dados: " . $post_id->get_error_message());
+                            } else {
+                                if (!empty($post_id)) {
+                                    $this->saveDeviceMetaInfo($payloadResult, $post_id);
+                                }
                             }
                         }
-                    }
-                }
-                else
-                {
-                    $this->saveDeviceMetaInfo($payloadResult, $post_id);
-                }
 
-                if($payload->command === "playStatistics" && !empty( $post_id )) {
-                    update_post_meta($post_id, 'statistics', $payload->result->statistics);
+                    } else {
+                        $this->saveDeviceMetaInfo($payloadResult, $post_id);
+                    }
+
+                    if ($payload->command === "playStatistics" && !empty($post_id)) {
+                        $readedDevices[] = $deviceMAC . "_S";
+                        update_post_meta($post_id, 'statistics', $payloadResult->statistics);
+                    }
                 }
 
             }
