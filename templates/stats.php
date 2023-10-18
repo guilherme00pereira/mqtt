@@ -30,10 +30,18 @@ $log = Logger::getInstance()->getLogContent();
                         </tr>
                     </thead>
                     <tbody>
-                        <?php foreach ($stats as $stat): 
+                        <?php foreach ($stats as $stat):
+                            $content    = maybe_unserialize($stat->content);
+                            if(is_array($content) && count($content) > 0):
                             $content    = maybe_unserialize($stat->content)[0];
                             $begin      = date('Y-m-d H:i', $content->started);
-                            $minutes    = round( (int)$content->length / 3600, 2, PHP_ROUND_HALF_UP);
+                            $minutes    = round( (int)$content->length / 3600, 2);
+                        else:
+                            $content    = new stdClass();
+                            $content->item = "Sem dados";
+                            $begin      = 'Sem dados';
+                            $minutes    = 'Sem dados';
+                        endif;
                             ?>
                             <tr>
                                 <td><a href="post.php?post=82&action=edit" target="_blank"><?php echo $stat->device; ?></a></td>
@@ -41,6 +49,7 @@ $log = Logger::getInstance()->getLogContent();
                                 <td><?php echo $begin; ?></td>
                                 <td><?php echo $minutes; ?></td>
                             </tr>
+
                         <?php endforeach; ?>
                     </tbody>
                 </table>
@@ -72,6 +81,10 @@ $log = Logger::getInstance()->getLogContent();
                 </table>
             </div>
             <div id="tab-03" class="stats-tab-content">
+                <div style="display: flex; padding: 20px 0;">
+                    <button id="logFileBtn" class="button button-primary">Atualizar</button>
+                    <span id="loadingLog" class="spinner is-active" style="display: none;"></span>
+                </div>
                 <div id="logFileContent" class="log-content">
                     <?php echo $log ?>
                 </div>

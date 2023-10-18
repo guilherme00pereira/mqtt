@@ -10,8 +10,6 @@ class MqttConnector
 
     protected array $server_data;
     private string $server_id;
-    const LOCK_OPTION = 'mqtt_connection_lock';
-    
 
     public function __construct($post_id, $data)
     {
@@ -21,42 +19,37 @@ class MqttConnector
 
     public function run()
     {
-        $lock_status = get_option(self::LOCK_OPTION);
-        if( !$lock_status ) {
-            add_option(self::LOCK_OPTION, 'unlocked');
-        }
-        if ($lock_status === 'unlocked') {
-            try {
-                update_option(self::LOCK_OPTION, 'locked');
-                $gmt_time = microtime(true);
-                $recycle_secs = intval($this->server_data['server_connection_recycle'][0]);
-                $mqtt = $this->buildMQTTClient();
-                $result = $mqtt->connect();
-                if (!($result)) {
-                    Logger::getInstance()->add("Error connecting to server " . $this->server_data['server_address'][0]);
-                    update_post_meta($this->server_id, CustomPostTypes::META_SERVER_LAST_CONNECTION_STATUS, 'error');
-                    return;
-                } else {
-                    Logger::getInstance()->add("Connected to server " . $this->server_data['server_address'][0]);
-                    update_post_meta($this->server_id, CustomPostTypes::META_SERVER_LAST_CONNECTION_STATUS, 'success');
-                }
-                $topics[$this->server_data['server_topic_filter'][0]] = 1;
-                Logger::getInstance()->add("Subscribing to topic " . $this->server_data['server_topic_filter'][0]);
-                $callback = new SubscribeCallback($this->server_id);
-                Logger::getInstance()->add("Setting handler");
-                $mqtt->setHandler($callback);
-                Logger::getInstance()->add("Subscribing");
-                $mqtt->subscribe($topics);
-                while ((microtime(true) - $gmt_time < $recycle_secs) && $mqtt->loop()) {
-                    Logger::getInstance()->add("Looping");
-                    set_time_limit(0);
-                }
-                Logger::getInstance()->add("Disconnecting");
-                update_option(self::LOCK_OPTION, 'unlocked');
-                $mqtt->disconnect();
-            } catch (Exception $error) {
-                Logger::getInstance()->add($error->getMessage());
+
+        try {
+
+            $gmt_time = microtime(true);
+            $recycle_secs = intval($this->server_data['server_connection_recycle'][0]);
+            $mqtt = $this->buildMQTTClient();
+            $result = $mqtt->connect();
+            if (!($result)) {
+                Logger::getInstance()->add("Error connecting to server " . $this->server_data['server_address'][0]);
+                update_post_meta($this->server_id, CustomPostTypes::META_SERVER_LAST_CONNECTION_STATUS, 'error');
+                return;
+            } else {
+                Logger::getInstance()->add("Connected to server " . $this->server_data['server_address'][0]);
+                update_post_meta($this->server_id, CustomPostTypes::META_SERVER_LAST_CONNECTION_STATUS, 'success');
             }
+            $topics[$this->server_data['server_topic_filter'][0]] = 1;
+            Logger::getInstance()->add("Subscribing to topic " . $this->server_data['server_topic_filter'][0]);
+            $callback = new SubscribeCallback($this->server_id);
+            Logger::getInstance()->add("Setting handler");
+            $mqtt->setHandler($callback);
+            Logger::getInstance()->add("Subscribing");
+            $mqtt->subscribe($topics);
+            while ((microtime(true) - $gmt_time < $recycle_secs) && $mqtt->loop()) {
+                Logger::getInstance()->add("Looping");
+                set_time_limit(0);
+            }
+            Logger::getInstance()->add("Disconnecting");
+
+            $mqtt->disconnect();
+        } catch (Exception $error) {
+            Logger::getInstance()->add($error->getMessage());
         }
     }
 

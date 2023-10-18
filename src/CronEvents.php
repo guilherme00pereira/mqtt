@@ -7,6 +7,8 @@ class CronEvents
 
     private static ?CronEvents $_instance = null;
 
+    const LOCK_OPTION = 'mqtt_connection_lock';
+
     public static function getInstance(): ?CronEvents {
         if ( is_null( self::$_instance ) ) {
             self::$_instance = new self();
@@ -27,17 +29,27 @@ class CronEvents
 
     public function execute()
     {
-        Logger::getInstance()->add("");
-        Logger::getInstance()->add("========== Executando cron ==========");
-        Logger::getInstance()->add("");
+        $lock_status = get_option(self::LOCK_OPTION);
+        if( !$lock_status ) {
+            add_option(self::LOCK_OPTION, 'unlocked');
+        }
+        if ($lock_status === 'unlocked') {
+            update_option(self::LOCK_OPTION, 'locked');
 
-        $this->connectAvailableServers();
+            Logger::getInstance()->add("");
+            Logger::getInstance()->add("========== Executando cron ==========");
+            Logger::getInstance()->add("");
 
-        $this->verifyNewDevices();
+            $this->connectAvailableServers();
 
-        Logger::getInstance()->add("");
-        Logger::getInstance()->add("========== Finalizando execução do cron ==========");
-        Logger::getInstance()->add("");
+            $this->verifyNewDevices();
+
+            Logger::getInstance()->add("");
+            Logger::getInstance()->add("========== Finalizando execução do cron ==========");
+            Logger::getInstance()->add("");
+
+            update_option(self::LOCK_OPTION, 'unlocked');
+        }
     }
 
     public function cron_schedules( $schedules )

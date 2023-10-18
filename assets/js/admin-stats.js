@@ -7,23 +7,45 @@
     );
 
     $('#gen_file_btn').click(function () {
-        if ($('#gen_file_name').val() == "") {
+        const genfilename = $('#gen_file_name').val();
+        const genfiledatetime = $('#gen_file_datetime').val();
+        const genfileext = $('#gen_file_ext').val();
+
+        if (genfilename.val() === "") {
             alert("Insira o nome do arquivo");
             return;
         }
-        if ($('#gen_file_datetime').val() == "") {
+        if (genfiledatetime.val() === "") {
             alert("Insira a data e hora do arquivo");
             return;
         }
-        if ($('#gen_file_ext').val() == "") {
+        if (genfileext.val() === "") {
             alert("Insira a extensão do arquivo");
             return;
         }
-        
-        $filename = $('#gen_file_name').val() + "_DEL";
-        $filename += "_" + $('#gen_file_datetime').val();
-        $filename += "." + $('#gen_file_ext').val();
-        $('#gen_file_result').text($filename);
+
+        let filename = genfilename.val() + "_DEL";
+        filename += "_" + genfiledatetime.val();
+        filename += "." + genfileext.val();
+        $('#gen_file_result').text(filename);
+    });
+
+    $('#logFileBtn').click(function () {
+        $('#loadingLog').show();
+        let params = {
+            action: ajaxobj.action_log,
+            nonce: ajaxobj.nonce,
+        };
+        $.get(
+            ajaxobj.ajaxurl,
+            params,
+            function (res) {
+                console.log(res)
+                $('#loadingLog').hide();
+                $("#logFileContent").html(res);
+            },
+            "json"
+        );
     });
 
 })(jQuery);
