@@ -27,7 +27,17 @@ class Admin
     public function display_plugin_statistics(): void
     {
         wp_enqueue_style( Plugin::getInstance()->getAssetsPrefix() . 'admin-stats' );
+        wp_enqueue_style( Plugin::getInstance()->getAssetsPrefix() . 'flatpickr-css', 'https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css');
+
         wp_enqueue_script( Plugin::getInstance()->getAssetsPrefix() . 'admin-stats' );
+        wp_enqueue_script( 
+            Plugin::getInstance()->getAssetsPrefix() . 'flatpickr-js', 
+            'https://cdn.jsdelivr.net/npm/flatpickr', 
+            array(), 
+            Plugin::getInstance()->getVersion(),
+            ['in-footer' => true]
+         );
+
 
         if ( ! current_user_can( 'manage_options' ) ) {
             return;

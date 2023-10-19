@@ -34,8 +34,8 @@ $log = Logger::getInstance()->getLogContent();
                             $content    = maybe_unserialize($stat->content);
                             if(is_array($content) && count($content) > 0):
                             $content    = maybe_unserialize($stat->content)[0];
-                            $begin      = date('Y-m-d H:i', $content->started);
-                            $minutes    = round( (int)$content->length / 3600, 2);
+                            $begin      = date('Y-m-d H:i', $content->started/1000);
+                            $minutes    = date('g:i:s', (int)$content->length);
                         else:
                             $content    = new stdClass();
                             $content->item = "Sem dados";
@@ -73,8 +73,9 @@ $log = Logger::getInstance()->getLogContent();
                             <td>
                                 <button id="gen_file_btn" class="button button-primary">Gerar arquivo</button>
                             </td>
-                            <td>
-                                <span id="gen_file_result"></span>
+                            <td style="display: flex;">
+                                <input type="text" id="gen_file_result" style="display: none; border: none; width: 280px;" />
+                                <a href="#" id="gen_file_copyname" style="display: none; margin-left: 20px;">Copiar</a>
                             </td>
                         </tr>
                     </tbody>
