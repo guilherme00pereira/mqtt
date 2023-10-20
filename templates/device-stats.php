@@ -21,9 +21,17 @@ $stats = Database::getDeviceStatistics($post->ID);
     </thead>
     <tbody>
         <?php foreach ($stats as $stat):
-            $content = maybe_unserialize($stat->content)[0];
-            $begin = date('Y-m-d H:i', $content->started);
-            $minutes = round((int) $content->length / 3600, 2, PHP_ROUND_HALF_UP);
+            $content = maybe_unserialize($stat->content);
+            if(is_array($content) && count($content) > 0):
+                $content    = maybe_unserialize($stat->content)[0];
+                $begin      = date('Y-m-d H:i', round($content->started/1000));
+                $minutes    = date('g:i:s', (int)$content->length);
+            else:
+                $content    = new stdClass();
+                $content->item = "Sem dados";
+                $begin      = 'Sem dados';
+                $minutes    = 'Sem dados';
+            endif;
             ?>
             <tr>
                 <td>

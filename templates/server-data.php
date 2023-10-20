@@ -62,7 +62,7 @@ $data_for_options = ['Forever', 'Today', 'Yesterday', 'Last 7 days', 'Last 30 da
             <label for="server_password">Senha: </label>
         </th>
         <td>
-            <input type="password" id="server_password" name="server_password" value="<?php echo $password ?>"/>
+            <input type="text" id="server_password" name="server_password" value="<?php echo $password ?>"/>
         </td>
     </tr>
     <tr>

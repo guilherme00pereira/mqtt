@@ -43,6 +43,19 @@ class Database
 
         $sql = "ALTER TABLE $table_name ADD INDEX `idx_buffer_topic` (`topic`(50), `utc`);";
         dbDelta($sql);
+
+        $table_name = Plugin::getInstance()->prefixTableName('stats');
+
+        $sql = "CREATE TABLE $table_name (
+        id bigint(20) NOT NULL AUTO_INCREMENT,
+        device_id bigint(20) NOT NULL,
+        content text NOT NULL,
+        started datetime NOT NULL,
+        length int(11) NOT NULL,
+        PRIMARY KEY  (id)
+        ) $charset_collate;";
+
+        dbDelta($sql);
     }
 
     public static function uninstallTables()
@@ -73,7 +86,7 @@ class Database
     {
         global $wpdb;
 
-        $sql = "select p.post_title as device, pm.meta_value as content from " . $wpdb->prefix . "posts p
+        $sql = "select p.ID, p.post_title as device, pm.meta_value as content from " . $wpdb->prefix . "posts p
         inner join " . $wpdb->prefix . "postmeta pm on pm.post_id = p.ID
         where meta_key = 'statistics' and
         post_id in (select ID from wpen_posts where post_type = 'dispositivo')";
@@ -89,5 +102,19 @@ class Database
         where meta_key = 'statistics' and
         post_id  = %s", $post_id);
         return $wpdb->get_results($sql);
+    }
+
+    public static function insertDeviceStatistics( $stat )
+    {
+        global $wpdb;
+        $sql = $wpdb->prepare("insert into " . Plugin::getInstance()->prefixTableName("stats") . " (device_id, content, started, length) values (%d, %s, %s, %d)", $stat->device_id, $stat->content, $stat->started, $stat->length);
+        $wpdb->query($sql);
+    }
+
+    public static function cleanTableData()
+    {
+        global $wpdb;
+        $wpdb->query("delete from " . Plugin::getInstance()->prefixTableName("data") . " where utc < DATE_SUB(NOW(), INTERVAL 1 DAY)");
+
     }
 }

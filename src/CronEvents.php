@@ -29,12 +29,12 @@ class CronEvents
 
     public function execute()
     {
-        $lock_status = get_option(self::LOCK_OPTION);
-        if( !$lock_status ) {
-            add_option(self::LOCK_OPTION, 'unlocked');
-        }
-        if ($lock_status === 'unlocked') {
-            update_option(self::LOCK_OPTION, 'locked');
+//        $lock_status = get_option(self::LOCK_OPTION);
+//        if( !$lock_status ) {
+//            add_option(self::LOCK_OPTION, 'unlocked');
+//        }
+//        if ($lock_status === 'unlocked') {
+//            update_option(self::LOCK_OPTION, 'locked');
 
             Logger::getInstance()->add("");
             Logger::getInstance()->add("========== Executando cron ==========");
@@ -44,12 +44,14 @@ class CronEvents
 
             $this->verifyNewDevices();
 
+            //Database::cleanTableData();
+
             Logger::getInstance()->add("");
             Logger::getInstance()->add("========== Finalizando execução do cron ==========");
             Logger::getInstance()->add("");
 
-            update_option(self::LOCK_OPTION, 'unlocked');
-        }
+//            update_option(self::LOCK_OPTION, 'unlocked');
+//        }
     }
 
     public function cron_schedules( $schedules )
@@ -93,16 +95,18 @@ class CronEvents
         $readedDevices = [];
         try {
             Logger::getInstance()->add("Verificando novos dispositivos");
+            $post_id = 0;
             $devices = Database::selectDevices();
             foreach ($devices as $device) {
+                $payload = json_decode($device->payload);
+                $payloadResult = $payload->result;
+
                 $deviceMAC = str_replace(['/RESP/', '/API'], '', $device->topic);
-                if(in_array($deviceMAC . "_S", $readedDevices) || in_array($deviceMAC . "_I", $readedDevices)) {
+
+                if(in_array($deviceMAC, $readedDevices)) {
                     continue;
                 } else {
                     Logger::getInstance()->add("Verificando dispositivo " . $deviceMAC);
-
-                    $payload = json_decode($device->payload);
-                    $payloadResult = $payload->result;
                     $post_id = Database::deviceExist($deviceMAC);
 
                     if ($post_id === 0) {
@@ -127,10 +131,14 @@ class CronEvents
                     } else {
                         $this->saveDeviceMetaInfo($payloadResult, $post_id);
                     }
+                }
 
-                    if ($payload->command === "playStatistics" && !empty($post_id)) {
-                        $readedDevices[] = $deviceMAC . "_S";
-                        update_post_meta($post_id, 'statistics', $payloadResult->statistics);
+                if( is_array( $payloadResult->statistics ) && count( $payloadResult->statistics ) > 0 )
+                {
+                    foreach( $payloadResult->statistics as $stat )
+                    {
+                        $stat->device_id = $post_id;
+                        Database::insertDeviceStatistics( $stat );
                     }
                 }
 
