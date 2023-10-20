@@ -10,10 +10,10 @@ use sskaje\mqtt\MQTT;
 
 class SubscribeCallback extends MessageHandler
 {
-    private string $server_id;
-    public function __construct( $id )
+    private MqttConnector $connector;
+    public function __construct( $conn )
     {
-        $this->server_id = $id;
+        $this->connector = $conn;
     }
 
     public function publish(MQTT $mqtt, Message\PUBLISH $publish_object)
@@ -36,6 +36,7 @@ class SubscribeCallback extends MessageHandler
                 Logger::getInstance()->add("Mqtt no publish object {$topic}, {$msg}, {$qos}, {$retain}");
                 return;
             }
+
             $numObjs = count($publish_objectarr);
             Logger::getInstance()->add("Mqtt publish object count: {$numObjs}");
 
@@ -49,7 +50,7 @@ class SubscribeCallback extends MessageHandler
                         'payload'   => $publish_object->getMessage(),
                         'qos'       =>$publish_object->getQos(),
                         'retain'    => $publish_object->getRetain(),
-                        'server_id' => $this->server_id
+                        'server_id' => $this->connector->server_id
                     ),
                     array(
                         '%s',
@@ -66,6 +67,7 @@ class SubscribeCallback extends MessageHandler
         }
         catch (Exception $e) {
             Logger::getInstance()->add("ERROR publishing ".$e->getMessage());
+            $this->connector->mqtt = null;
             //attempt graceful disconnect
             $mqtt->disconnect();
         }

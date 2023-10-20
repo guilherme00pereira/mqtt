@@ -2,6 +2,8 @@
 
 namespace G28\MqttConnection;
 
+use stdClass;
+
 class CronEvents
 {
 
@@ -106,12 +108,11 @@ class CronEvents
                 if(in_array($deviceMAC, $readedDevices)) {
                     continue;
                 } else {
-                    Logger::getInstance()->add("Verificando dispositivo " . $deviceMAC);
                     $post_id = Database::deviceExist($deviceMAC);
 
                     if ($post_id === 0) {
                         if ($payload->command === "deviceInfo") {
-                            Logger::getInstance()->add("Cadastrando dispositivo " . $deviceMAC);
+                            Logger::getInstance()->add("Cadastrando novo dispositivo " . $deviceMAC);
                             $readedDevices[] = $deviceMAC . "_I";
                             $post_id = wp_insert_post([
                                 'post_title' => $deviceMAC,
@@ -137,8 +138,18 @@ class CronEvents
                 {
                     foreach( $payloadResult->statistics as $stat )
                     {
-                        $stat->device_id = $post_id;
-                        Database::insertDeviceStatistics( $stat );
+                        $content    = maybe_unserialize($stat->content);
+                            if(is_array($content) && count($content) > 0):
+                                $content    = maybe_unserialize($stat->content)[0];
+                                $begin      = date('Y-m-d H:i', round($content->started/1000));
+                                $minutes    = date('g:i:s', (int)$content->length);
+                            else:
+                                $content    = new stdClass();
+                                $content->item = "Sem dados";
+                                $begin      = 'Sem dados';
+                                $minutes    = 'Sem dados';
+                            endif;
+                        Database::insertDeviceStatistics( $post_id, $content->item, $begin, $minutes );
                     }
                 }
 

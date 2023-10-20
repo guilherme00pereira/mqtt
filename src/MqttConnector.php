@@ -10,6 +10,7 @@ class MqttConnector
 
     protected array $server_data;
     private string $server_id;
+    public ?MQTT $mqtt;
 
     public function __construct($post_id, $data)
     {
@@ -22,34 +23,53 @@ class MqttConnector
 
         try {
 
+            $file = './' . Plugin::getInstance()->prefixTableName('lock.pid');
+            $lock = new Lock($file);
             $gmt_time = microtime(true);
-            $recycle_secs = intval($this->server_data['server_connection_recycle'][0]);
-            $mqtt = $this->buildMQTTClient();
-            $result = $mqtt->connect();
-            if (!($result)) {
-                Logger::getInstance()->add("Error connecting to server " . $this->server_data['server_address'][0]);
-                update_post_meta($this->server_id, CustomPostTypes::META_SERVER_LAST_CONNECTION_STATUS, 'error');
-                return;
-            } else {
-                Logger::getInstance()->add("Connected to server " . $this->server_data['server_address'][0]);
-                update_post_meta($this->server_id, CustomPostTypes::META_SERVER_LAST_CONNECTION_STATUS, 'success');
-            }
-            $topics[$this->server_data['server_topic_filter'][0]] = 1;
-            Logger::getInstance()->add("Subscribing to topic " . $this->server_data['server_topic_filter'][0]);
-            $callback = new SubscribeCallback($this->server_id);
-            Logger::getInstance()->add("Setting handler");
-            $mqtt->setHandler($callback);
-            Logger::getInstance()->add("Subscribing");
-            $mqtt->subscribe($topics);
-            while ((microtime(true) - $gmt_time < $recycle_secs) && $mqtt->loop()) {
-                Logger::getInstance()->add("Looping");
-                set_time_limit(0);
-            }
-            Logger::getInstance()->add("Disconnecting");
 
-            $mqtt->disconnect();
+            if ($lock->acquire()) {
+                $recycle_secs = intval($this->server_data['server_connection_recycle'][0]);
+                $mqtt = $this->buildMQTTClient();
+                $result = $mqtt->connect();
+
+                if (!($result)) {
+                    Logger::getInstance()->add("Error connecting to server " . $this->server_data['server_address'][0]);
+                    update_post_meta($this->server_id, CustomPostTypes::META_SERVER_LAST_CONNECTION_STATUS, 'error');
+                    return;
+                } else {
+                    Logger::getInstance()->add("Connected to server " . $this->server_data['server_address'][0]);
+                    update_post_meta($this->server_id, CustomPostTypes::META_SERVER_LAST_CONNECTION_STATUS, 'success');
+                }
+
+                $this->mqtt = $mqtt;
+
+                $topics[$this->server_data['server_topic_filter'][0]] = 1;
+                $callback = new SubscribeCallback($this);
+
+                Logger::getInstance()->add("Setting handler");
+                $mqtt->setHandler($callback);
+
+                Logger::getInstance()->add("Subscribing");
+                $mqtt->subscribe($topics);
+
+                while ($this->mqtt && (microtime(true) - $gmt_time < $recycle_secs) && $mqtt->loop()) {
+                    Logger::getInstance()->add("Looping");
+                    set_time_limit(0);
+                }
+                Logger::getInstance()->add("Disconnecting");
+
+                $mqtt->disconnect();
+            }
         } catch (Exception $error) {
-            Logger::getInstance()->add($error->getMessage());
+            Logger::getInstance()->add("Error during watchdog, disconnecting: " . $error->getMessage());
+            if (!empty($mqtt)) {
+                try {
+                    $mqtt->disconnect();
+                }
+                catch (Exception $eee) {
+                    Logger::getInstance()->add($eee->getMessage());
+                }
+            }
         }
     }
 

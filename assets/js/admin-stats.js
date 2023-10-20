@@ -49,7 +49,6 @@
             ajaxobj.ajaxurl,
             params,
             function (res) {
-                console.log(res)
                 $('#loadingLog').hide();
                 $("#logFileContent").html(res);
             },

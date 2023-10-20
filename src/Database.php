@@ -104,10 +104,10 @@ class Database
         return $wpdb->get_results($sql);
     }
 
-    public static function insertDeviceStatistics( $stat )
+    public static function insertDeviceStatistics( $id, $content, $begin, $minutes )
     {
         global $wpdb;
-        $sql = $wpdb->prepare("insert into " . Plugin::getInstance()->prefixTableName("stats") . " (device_id, content, started, length) values (%d, %s, %s, %d)", $stat->device_id, $stat->content, $stat->started, $stat->length);
+        $sql = $wpdb->prepare("insert into " . Plugin::getInstance()->prefixTableName("stats") . " (device_id, content, started, length) values (%d, %s, %s, %d)", $id, $content, $begin, $minutes);
         $wpdb->query($sql);
     }
 
