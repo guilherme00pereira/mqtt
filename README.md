@@ -101,3 +101,9 @@ O plugin deverá ter uma ferramenta simples de geração do nome do arquivo de e
 		documento_DEL_7D.pdf
 
 >OK = Ajuste simples em futuro UPGRADE a combinarmos, como datepicker para seção da data e javascrit para copiar automaticamente o resultado para área de transferência (ctr+c)
+
+8. **AJUSTES**
+
+		coluna dispositivo se está online ou anteção pegando ultimas conexões.
+
+		filtro na pagina MQTT estatisticas por nome do arquivo, data e por dispositivo

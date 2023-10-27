@@ -58,11 +58,6 @@ class Database
         dbDelta($sql);
     }
 
-    public static function uninstallTables()
-    {
-        
-    }
-
     public static function selectDevices()
     {
         global $wpdb;
@@ -86,10 +81,9 @@ class Database
     {
         global $wpdb;
 
-        $sql = "select p.ID, p.post_title as device, pm.meta_value as content from " . $wpdb->prefix . "posts p
-        inner join " . $wpdb->prefix . "postmeta pm on pm.post_id = p.ID
-        where meta_key = 'statistics' and
-        post_id in (select ID from wpen_posts where post_type = 'dispositivo')";
+        $sql = "select s.device_id, s.content, s.started, s.length, p.post_title as device_name from " . Plugin::getInstance()->prefixTableName('stats') . " s
+         inner join " . $wpdb->prefix . "posts p on p.ID = s.device_id
+          group by s.content order by s.content ASC";
         return $wpdb->get_results($sql);
     }
 
@@ -97,16 +91,22 @@ class Database
     {
         global $wpdb;
 
-        $sql = $wpdb->prepare("select p.post_title as device, pm.meta_value as content from " . $wpdb->prefix . "posts p
-        inner join " . $wpdb->prefix . "postmeta pm on pm.post_id = p.ID
-        where meta_key = 'statistics' and
-        post_id  = %s", $post_id);
+        $sql = $wpdb->prepare("select s.device_id, s.content, s.started, s.length, p.post_title as device_name from " . Plugin::getInstance()->prefixTableName('stats') . " s
+         inner join " . $wpdb->prefix . "posts p on p.ID = s.device_id
+         where s.device_id = %s
+          group by s.content order by s.content ASC", $post_id);
         return $wpdb->get_results($sql);
     }
 
     public static function insertDeviceStatistics( $id, $content, $begin, $minutes )
     {
         global $wpdb;
+
+        $rows = $wpdb->get_results($wpdb->prepare("select * from " . Plugin::getInstance()->prefixTableName('stats') . " where device_id = %d and content = %s and started = %s and length = %d", $id, $content, $begin, $minutes));
+        if (count($rows) > 0) {
+            return;
+        }
+
         $sql = $wpdb->prepare("insert into " . Plugin::getInstance()->prefixTableName("stats") . " (device_id, content, started, length) values (%d, %s, %s, %d)", $id, $content, $begin, $minutes);
         $wpdb->query($sql);
     }

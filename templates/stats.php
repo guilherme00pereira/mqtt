@@ -31,22 +31,12 @@ $log = Logger::getInstance()->getLogContent();
                     </thead>
                     <tbody>
                         <?php foreach ($stats as $stat):
-                        $content    = maybe_unserialize($stat->content);
-                            if(is_array($content) && count($content) > 0):
-                                $content    = maybe_unserialize($stat->content)[0];
-                                $begin      = date('Y-m-d H:i', round($content->started/1000));
-                                $minutes    = date('g:i:s', (int)$content->length);
-                            else:
-                                $content    = new stdClass();
-                                $content->item = "Sem dados";
-                                $begin      = 'Sem dados';
-                                $minutes    = 'Sem dados';
-                            endif;
+                            $minutes    = date('i:s', (int)$stat->length);
                             ?>
                             <tr>
-                                <td><a href="post.php?post=<?php echo $stat->ID; ?>&action=edit" target="_blank"><?php echo $stat->device; ?></a></td>
-                                <td><?php echo $content->item; ?></td>
-                                <td><?php echo $begin; ?></td>
+                                <td><a href="post.php?post=<?php echo $stat->device_id; ?>&action=edit" target="_blank"><?php echo $stat->device_name; ?></a></td>
+                                <td><?php echo $stat->content; ?></td>
+                                <td><?php echo $stat->started; ?></td>
                                 <td><?php echo $minutes; ?></td>
                             </tr>
 

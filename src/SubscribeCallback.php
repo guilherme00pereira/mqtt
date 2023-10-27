@@ -50,7 +50,7 @@ class SubscribeCallback extends MessageHandler
                         'payload'   => $publish_object->getMessage(),
                         'qos'       =>$publish_object->getQos(),
                         'retain'    => $publish_object->getRetain(),
-                        'server_id' => $this->connector->server_id
+                        'server_id' => $this->connector->getServerId()
                     ),
                     array(
                         '%s',

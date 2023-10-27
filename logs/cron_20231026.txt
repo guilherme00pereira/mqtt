@@ -1,0 +1,572 @@
+[ 26/10/2023 09:27:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 09:27:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 09:27:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","started":1698366238929,"length":211456},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo1.jpg","started":1698366450388,"length":10004}]}}, 1, 0
+[ 26/10/2023 09:27:43 PM ] Mqtt publishing
+[ 26/10/2023 09:27:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 09:27:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 09:27:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2808233984,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo2.jpg","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 09:27:43 PM ] Mqtt publishing
+[ 26/10/2023 09:25:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 09:25:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 09:25:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/0060_Evento Musical_nov_23.mp4","started":1698366207954,"length":30971}]}}, 1, 0
+[ 26/10/2023 09:25:43 PM ] Mqtt publishing
+[ 26/10/2023 09:25:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 09:25:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 09:25:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885009,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2808233984,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 09:25:43 PM ] Mqtt publishing
+[ 26/10/2023 09:23:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 09:23:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 09:23:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","started":1698365955701,"length":211380},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo1.jpg","started":1698366167085,"length":10001},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo2.jpg","started":1698366177091,"length":10000},{"item":"CONTEUDO\/MIDIAINDOOR\/0050_Doaçao de cesta.mp4","started":1698366187123,"length":20829}]}}, 1, 0
+[ 26/10/2023 09:23:43 PM ] Mqtt publishing
+[ 26/10/2023 09:23:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 09:23:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 09:23:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2808233984,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/0060_Evento Musical_nov_23.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 09:23:43 PM ] Mqtt publishing
+[ 26/10/2023 09:21:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 09:21:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 09:21:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[]}}, 1, 0
+[ 26/10/2023 09:21:43 PM ] Mqtt publishing
+[ 26/10/2023 09:21:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 09:21:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 09:21:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885009,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916633,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2808233984,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 09:21:43 PM ] Mqtt publishing
+[ 26/10/2023 09:19:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 09:19:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 09:19:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","started":1698365672421,"length":211460},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo1.jpg","started":1698365883885,"length":10000},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo2.jpg","started":1698365893887,"length":10001},{"item":"CONTEUDO\/MIDIAINDOOR\/0050_Doaçao de cesta.mp4","started":1698365903896,"length":20829},{"item":"CONTEUDO\/MIDIAINDOOR\/0060_Evento Musical_nov_23.mp4","started":1698365924726,"length":30974}]}}, 1, 0
+[ 26/10/2023 09:19:43 PM ] Mqtt publishing
+[ 26/10/2023 09:19:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 09:19:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 09:19:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2808233984,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 09:19:43 PM ] Mqtt publishing
+[ 26/10/2023 09:17:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 09:17:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 09:17:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[]}}, 1, 0
+[ 26/10/2023 09:17:43 PM ] Mqtt publishing
+[ 26/10/2023 09:17:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 09:17:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 09:17:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885009,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2808233984,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 09:17:43 PM ] Mqtt publishing
+[ 26/10/2023 09:15:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 09:15:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 09:15:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/0050_Doaçao de cesta.mp4","started":1698365620740,"length":20733},{"item":"CONTEUDO\/MIDIAINDOOR\/0060_Evento Musical_nov_23.mp4","started":1698365641475,"length":30945}]}}, 1, 0
+[ 26/10/2023 09:15:43 PM ] Mqtt publishing
+[ 26/10/2023 09:15:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 09:15:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 09:15:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2808246272,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 09:15:43 PM ] Mqtt publishing
+[ 26/10/2023 09:13:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 09:13:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 09:13:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","started":1698365379442,"length":211226},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo1.jpg","started":1698365590675,"length":10000},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo2.jpg","started":1698365600676,"length":10002},{"item":"CONTEUDO\/MIDIAINDOOR\/xpropabox telas itens manual.png","started":1698365610680,"length":10003}]}}, 1, 0
+[ 26/10/2023 09:13:43 PM ] Mqtt publishing
+[ 26/10/2023 09:13:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 09:13:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 09:13:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885009,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2808246272,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/0050_Doaçao de cesta.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 09:13:43 PM ] Mqtt publishing
+[ 26/10/2023 09:11:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 09:11:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 09:11:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[]}}, 1, 0
+[ 26/10/2023 09:11:43 PM ] Mqtt publishing
+[ 26/10/2023 09:11:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 09:11:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 09:11:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885009,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916633,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2808233984,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 09:11:43 PM ] Mqtt publishing
+[ 26/10/2023 09:09:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 09:09:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 09:09:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","started":1698365127001,"length":211432},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo1.jpg","started":1698365338436,"length":10000},{"item":"CONTEUDO\/MIDIAINDOOR\/xpropabox telas itens manual.png","started":1698365348472,"length":10098},{"item":"CONTEUDO\/MIDIAINDOOR\/0050_Doaçao de cesta.mp4","started":1698365358570,"length":20802}]}}, 1, 0
+[ 26/10/2023 09:09:43 PM ] Mqtt publishing
+[ 26/10/2023 09:09:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 09:09:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 09:09:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2808233984,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 09:09:43 PM ] Mqtt publishing
+[ 26/10/2023 09:07:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 09:07:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 09:07:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[]}}, 1, 0
+[ 26/10/2023 09:07:43 PM ] Mqtt publishing
+[ 26/10/2023 09:07:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 09:07:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 09:07:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885009,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916633,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2807906304,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 09:07:43 PM ] Mqtt publishing
+[ 26/10/2023 09:05:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 09:05:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 09:05:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","started":1698364843782,"length":211423},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo1.jpg","started":1698365055208,"length":10001},{"item":"CONTEUDO\/MIDIAINDOOR\/xpropabox telas itens manual.png","started":1698365065243,"length":10097},{"item":"CONTEUDO\/MIDIAINDOOR\/0050_Doaçao de cesta.mp4","started":1698365075340,"length":20720},{"item":"CONTEUDO\/MIDIAINDOOR\/0060_Evento Musical_nov_23.mp4","started":1698365096062,"length":30937}]}}, 1, 0
+[ 26/10/2023 09:05:43 PM ] Mqtt publishing
+[ 26/10/2023 09:05:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 09:05:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 09:05:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885009,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2807906304,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 09:05:43 PM ] Mqtt publishing
+[ 26/10/2023 09:03:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 09:03:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 09:03:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[]}}, 1, 0
+[ 26/10/2023 09:03:43 PM ] Mqtt publishing
+[ 26/10/2023 09:03:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 09:03:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 09:03:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2807906304,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 09:03:43 PM ] Mqtt publishing
+[ 26/10/2023 09:01:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 09:01:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 09:01:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo2.jpg","started":1698364781962,"length":10001},{"item":"CONTEUDO\/MIDIAINDOOR\/0050_Doaçao de cesta.mp4","started":1698364791981,"length":20828},{"item":"CONTEUDO\/MIDIAINDOOR\/0060_Evento Musical_nov_23.mp4","started":1698364812811,"length":30970}]}}, 1, 0
+[ 26/10/2023 09:01:43 PM ] Mqtt publishing
+[ 26/10/2023 09:01:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 09:01:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 09:01:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916633,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2807906304,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 09:01:43 PM ] Mqtt publishing
+[ 26/10/2023 08:59:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:59:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:59:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","started":1698364560622,"length":211337},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo1.jpg","started":1698364771962,"length":10000}]}}, 1, 0
+[ 26/10/2023 08:59:43 PM ] Mqtt publishing
+[ 26/10/2023 08:59:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:59:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:59:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2807906304,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo2.jpg","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 08:59:43 PM ] Mqtt publishing
+[ 26/10/2023 08:57:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:57:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:57:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/0060_Evento Musical_nov_23.mp4","started":1698364529673,"length":30947}]}}, 1, 0
+[ 26/10/2023 08:57:43 PM ] Mqtt publishing
+[ 26/10/2023 08:57:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:57:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:57:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2807906304,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 08:57:43 PM ] Mqtt publishing
+[ 26/10/2023 08:55:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:55:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:55:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","started":1698364277363,"length":211421},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo1.jpg","started":1698364488786,"length":10001},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo2.jpg","started":1698364498792,"length":10005},{"item":"CONTEUDO\/MIDIAINDOOR\/0050_Doaçao de cesta.mp4","started":1698364508805,"length":20864}]}}, 1, 0
+[ 26/10/2023 08:55:43 PM ] Mqtt publishing
+[ 26/10/2023 08:55:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:55:42 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:55:42 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916633,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2807906304,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/0060_Evento Musical_nov_23.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 08:55:42 PM ] Mqtt publishing
+[ 26/10/2023 08:53:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:53:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:53:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[]}}, 1, 0
+[ 26/10/2023 08:53:43 PM ] Mqtt publishing
+[ 26/10/2023 08:53:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:53:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:53:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2807906304,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 08:53:43 PM ] Mqtt publishing
+[ 26/10/2023 08:51:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:51:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:51:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","started":1698363984343,"length":211187},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo1.jpg","started":1698364195534,"length":10001},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo2.jpg","started":1698364205535,"length":10004},{"item":"CONTEUDO\/MIDIAINDOOR\/xpropabox telas itens manual.png","started":1698364215542,"length":10003},{"item":"CONTEUDO\/MIDIAINDOOR\/0050_Doaçao de cesta.mp4","started":1698364225546,"length":20849},{"item":"CONTEUDO\/MIDIAINDOOR\/0060_Evento Musical_nov_23.mp4","started":1698364246397,"length":30963}]}}, 1, 0
+[ 26/10/2023 08:51:43 PM ] Mqtt publishing
+[ 26/10/2023 08:51:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:51:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:51:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885009,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916633,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2807906304,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 08:51:43 PM ] Mqtt publishing
+[ 26/10/2023 08:49:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:49:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:49:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[]}}, 1, 0
+[ 26/10/2023 08:49:43 PM ] Mqtt publishing
+[ 26/10/2023 08:49:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:49:42 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:49:42 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885009,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916633,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2807906304,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 08:49:42 PM ] Mqtt publishing
+[ 26/10/2023 08:47:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:47:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:47:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","started":1698363731994,"length":211427},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo1.jpg","started":1698363943424,"length":10000},{"item":"CONTEUDO\/MIDIAINDOOR\/xpropabox telas itens manual.png","started":1698363953432,"length":10102},{"item":"CONTEUDO\/MIDIAINDOOR\/0050_Doaçao de cesta.mp4","started":1698363963534,"length":20796}]}}, 1, 0
+[ 26/10/2023 08:47:43 PM ] Mqtt publishing
+[ 26/10/2023 08:47:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:47:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:47:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2807906304,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 08:47:43 PM ] Mqtt publishing
+[ 26/10/2023 08:45:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:45:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:45:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[]}}, 1, 0
+[ 26/10/2023 08:45:43 PM ] Mqtt publishing
+[ 26/10/2023 08:45:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:45:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:45:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885009,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916633,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2807906304,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 08:45:43 PM ] Mqtt publishing
+[ 26/10/2023 08:43:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:43:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:43:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/0060_Evento Musical_nov_23.mp4","started":1698363701007,"length":30986}]}}, 1, 0
+[ 26/10/2023 08:43:43 PM ] Mqtt publishing
+[ 26/10/2023 08:43:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:43:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:43:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2807906304,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 08:43:43 PM ] Mqtt publishing
+[ 26/10/2023 08:41:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:41:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:41:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","started":1698363448744,"length":211347},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo1.jpg","started":1698363660094,"length":10001},{"item":"CONTEUDO\/MIDIAINDOOR\/xpropabox telas itens manual.png","started":1698363670113,"length":10104},{"item":"CONTEUDO\/MIDIAINDOOR\/0050_Doaçao de cesta.mp4","started":1698363680216,"length":20789}]}}, 1, 0
+[ 26/10/2023 08:41:43 PM ] Mqtt publishing
+[ 26/10/2023 08:41:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:41:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:41:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2807906304,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/0060_Evento Musical_nov_23.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 08:41:43 PM ] Mqtt publishing
+[ 26/10/2023 08:39:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:39:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:39:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[]}}, 1, 0
+[ 26/10/2023 08:39:43 PM ] Mqtt publishing
+[ 26/10/2023 08:39:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:39:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:39:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885009,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2807910400,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 08:39:43 PM ] Mqtt publishing
+[ 26/10/2023 08:37:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:37:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:37:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","started":1698363165542,"length":211382},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo1.jpg","started":1698363376928,"length":10000},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo2.jpg","started":1698363386930,"length":10002},{"item":"CONTEUDO\/MIDIAINDOOR\/0050_Doaçao de cesta.mp4","started":1698363396963,"length":20768},{"item":"CONTEUDO\/MIDIAINDOOR\/0060_Evento Musical_nov_23.mp4","started":1698363417734,"length":31008}]}}, 1, 0
+[ 26/10/2023 08:37:43 PM ] Mqtt publishing
+[ 26/10/2023 08:37:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:37:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:37:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2807910400,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 08:37:43 PM ] Mqtt publishing
+[ 26/10/2023 08:35:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:35:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:35:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[]}}, 1, 0
+[ 26/10/2023 08:35:43 PM ] Mqtt publishing
+[ 26/10/2023 08:35:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:35:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:35:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2807934976,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 08:35:43 PM ] Mqtt publishing
+[ 26/10/2023 08:33:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:33:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:33:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo1.jpg","started":1698363093603,"length":10002},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo2.jpg","started":1698363103611,"length":10001},{"item":"CONTEUDO\/MIDIAINDOOR\/0050_Doaçao de cesta.mp4","started":1698363113645,"length":20881},{"item":"CONTEUDO\/MIDIAINDOOR\/0060_Evento Musical_nov_23.mp4","started":1698363134527,"length":31012}]}}, 1, 0
+[ 26/10/2023 08:33:43 PM ] Mqtt publishing
+[ 26/10/2023 08:33:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:33:42 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:33:42 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916633,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2807934976,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 08:33:42 PM ] Mqtt publishing
+[ 26/10/2023 08:31:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:31:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:31:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","started":1698362882231,"length":211366}]}}, 1, 0
+[ 26/10/2023 08:31:43 PM ] Mqtt publishing
+[ 26/10/2023 08:31:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:31:42 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:31:42 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885009,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916633,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2807934976,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo1.jpg","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 08:31:42 PM ] Mqtt publishing
+[ 26/10/2023 08:29:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:29:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:29:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/0060_Evento Musical_nov_23.mp4","started":1698362851288,"length":30941}]}}, 1, 0
+[ 26/10/2023 08:29:43 PM ] Mqtt publishing
+[ 26/10/2023 08:29:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:29:42 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:29:42 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916633,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2807934976,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 08:29:42 PM ] Mqtt publishing
+[ 26/10/2023 08:27:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:27:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:27:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","started":1698362589272,"length":211273},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo1.jpg","started":1698362800548,"length":10000},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo2.jpg","started":1698362810549,"length":10003},{"item":"CONTEUDO\/MIDIAINDOOR\/xpropabox telas itens manual.png","started":1698362820553,"length":10002},{"item":"CONTEUDO\/MIDIAINDOOR\/0050_Doaçao de cesta.mp4","started":1698362830558,"length":20729}]}}, 1, 0
+[ 26/10/2023 08:27:43 PM ] Mqtt publishing
+[ 26/10/2023 08:27:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:27:42 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:27:42 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2807934976,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/0060_Evento Musical_nov_23.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 08:27:42 PM ] Mqtt publishing
+[ 26/10/2023 08:25:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:25:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:25:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[]}}, 1, 0
+[ 26/10/2023 08:25:43 PM ] Mqtt publishing
+[ 26/10/2023 08:25:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:25:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:25:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2807934976,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 08:25:43 PM ] Mqtt publishing
+[ 26/10/2023 08:23:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:23:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:23:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","started":1698362336795,"length":211526},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo1.jpg","started":1698362548325,"length":10001},{"item":"CONTEUDO\/MIDIAINDOOR\/xpropabox telas itens manual.png","started":1698362558353,"length":10098},{"item":"CONTEUDO\/MIDIAINDOOR\/0050_Doaçao de cesta.mp4","started":1698362568451,"length":20807}]}}, 1, 0
+[ 26/10/2023 08:23:43 PM ] Mqtt publishing
+[ 26/10/2023 08:23:42 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:23:42 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:23:42 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2807934976,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 08:23:42 PM ] Mqtt publishing
+[ 26/10/2023 08:21:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:21:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:21:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[]}}, 1, 0
+[ 26/10/2023 08:21:43 PM ] Mqtt publishing
+[ 26/10/2023 08:21:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:21:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:21:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916633,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2807934976,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 08:21:43 PM ] Mqtt publishing
+[ 26/10/2023 08:19:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:19:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:19:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","started":1698362053557,"length":211290},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo1.jpg","started":1698362264854,"length":10000},{"item":"CONTEUDO\/MIDIAINDOOR\/xpropabox telas itens manual.png","started":1698362274865,"length":10095},{"item":"CONTEUDO\/MIDIAINDOOR\/0050_Doaçao de cesta.mp4","started":1698362284959,"length":20847},{"item":"CONTEUDO\/MIDIAINDOOR\/0060_Evento Musical_nov_23.mp4","started":1698362305810,"length":30984}]}}, 1, 0
+[ 26/10/2023 08:19:43 PM ] Mqtt publishing
+[ 26/10/2023 08:19:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:19:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:19:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916633,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2807934976,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 08:19:43 PM ] Mqtt publishing
+[ 26/10/2023 08:17:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:17:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:17:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[]}}, 1, 0
+[ 26/10/2023 08:17:43 PM ] Mqtt publishing
+[ 26/10/2023 08:17:42 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:17:42 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:17:42 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2807934976,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 08:17:42 PM ] Mqtt publishing
+[ 26/10/2023 08:15:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:15:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:15:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/0050_Doaçao de cesta.mp4","started":1698362001734,"length":20820},{"item":"CONTEUDO\/MIDIAINDOOR\/0060_Evento Musical_nov_23.mp4","started":1698362022556,"length":30999}]}}, 1, 0
+[ 26/10/2023 08:15:43 PM ] Mqtt publishing
+[ 26/10/2023 08:15:42 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:15:42 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:15:42 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2808188928,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 08:15:42 PM ] Mqtt publishing
+[ 26/10/2023 08:14:39 PM ] 
+[ 26/10/2023 08:14:39 PM ] ========== Finalizando execução do cron ==========
+[ 26/10/2023 08:14:39 PM ] 
+[ 26/10/2023 08:14:38 PM ] Verificando novos dispositivos
+[ 26/10/2023 08:14:38 PM ] 
+[ 26/10/2023 08:14:38 PM ] ========== Executando cron ==========
+[ 26/10/2023 08:14:38 PM ] 
+[ 26/10/2023 08:13:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:13:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:13:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","started":1698361770240,"length":211473},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo1.jpg","started":1698361981715,"length":10000},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo2.jpg","started":1698361991721,"length":10005}]}}, 1, 0
+[ 26/10/2023 08:13:43 PM ] Mqtt publishing
+[ 26/10/2023 08:13:42 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 08:13:42 PM ] Mqtt publish object count: 1
+[ 26/10/2023 08:13:42 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2808188928,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/0050_Doaçao de cesta.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 08:13:42 PM ] Mqtt publishing
+[ 26/10/2023 08:13:30 PM ] Subscribing
+[ 26/10/2023 08:13:30 PM ] Setting handler
+[ 26/10/2023 08:13:30 PM ] Connected to server ssl://550616c685364cf38062f7f3b14ed330.s1.eu.hivemq.cloud:8883
+[ 26/10/2023 08:13:29 PM ] Error during watchdog, disconnecting: Connection Refused: bad user name or password
+[ 26/10/2023 08:13:28 PM ] 
+[ 26/10/2023 08:13:28 PM ] ========== Executando cron ==========
+[ 26/10/2023 08:13:28 PM ] 
+[ 26/10/2023 05:39:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:39:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:39:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/0060_Evento Musical_nov_23.mp4","started":1698352653754,"length":31021}]}}, 1, 0
+[ 26/10/2023 05:39:43 PM ] Mqtt publishing
+[ 26/10/2023 05:39:42 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:39:42 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:39:42 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2808102912,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 05:39:42 PM ] Mqtt publishing
+[ 26/10/2023 05:39:09 PM ] 
+[ 26/10/2023 05:39:09 PM ] ========== Finalizando execução do cron ==========
+[ 26/10/2023 05:39:09 PM ] 
+[ 26/10/2023 05:39:08 PM ] Verificando novos dispositivos
+[ 26/10/2023 05:39:08 PM ] 
+[ 26/10/2023 05:39:08 PM ] ========== Executando cron ==========
+[ 26/10/2023 05:39:08 PM ] 
+[ 26/10/2023 05:37:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:37:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:37:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","started":1698352401750,"length":211173},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo2.jpg","started":1698352612938,"length":10082},{"item":"CONTEUDO\/MIDIAINDOOR\/xpropabox telas itens manual.png","started":1698352623020,"length":10001},{"item":"CONTEUDO\/MIDIAINDOOR\/0050_Doaçao de cesta.mp4","started":1698352633023,"length":20724}]}}, 1, 0
+[ 26/10/2023 05:37:43 PM ] Mqtt publishing
+[ 26/10/2023 05:37:42 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:37:42 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:37:42 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2808102912,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/0060_Evento Musical_nov_23.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 05:37:42 PM ] Mqtt publishing
+[ 26/10/2023 05:35:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:35:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:35:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[]}}, 1, 0
+[ 26/10/2023 05:35:43 PM ] Mqtt publishing
+[ 26/10/2023 05:35:42 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:35:42 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:35:42 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2808102912,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 05:35:42 PM ] Mqtt publishing
+[ 26/10/2023 05:34:07 PM ] 
+[ 26/10/2023 05:34:07 PM ] ========== Finalizando execução do cron ==========
+[ 26/10/2023 05:34:07 PM ] 
+[ 26/10/2023 05:34:06 PM ] Verificando novos dispositivos
+[ 26/10/2023 05:34:06 PM ] 
+[ 26/10/2023 05:34:06 PM ] ========== Executando cron ==========
+[ 26/10/2023 05:34:06 PM ] 
+[ 26/10/2023 05:33:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:33:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:33:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","started":1698352149597,"length":211229},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo1.jpg","started":1698352360830,"length":10001},{"item":"CONTEUDO\/MIDIAINDOOR\/xpropabox telas itens manual.png","started":1698352370853,"length":10105},{"item":"CONTEUDO\/MIDIAINDOOR\/0050_Doaçao de cesta.mp4","started":1698352380957,"length":20780}]}}, 1, 0
+[ 26/10/2023 05:33:43 PM ] Mqtt publishing
+[ 26/10/2023 05:33:42 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:33:42 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:33:42 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885009,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916633,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2808102912,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 05:33:42 PM ] Mqtt publishing
+[ 26/10/2023 05:31:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:31:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:31:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[]}}, 1, 0
+[ 26/10/2023 05:31:43 PM ] Mqtt publishing
+[ 26/10/2023 05:31:42 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:31:42 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:31:42 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2808107008,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 05:31:42 PM ] Mqtt publishing
+[ 26/10/2023 05:29:55 PM ] 
+[ 26/10/2023 05:29:55 PM ] ========== Finalizando execução do cron ==========
+[ 26/10/2023 05:29:55 PM ] 
+[ 26/10/2023 05:29:54 PM ] Verificando novos dispositivos
+[ 26/10/2023 05:29:54 PM ] 
+[ 26/10/2023 05:29:54 PM ] ========== Executando cron ==========
+[ 26/10/2023 05:29:54 PM ] 
+[ 26/10/2023 05:29:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:29:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:29:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","started":1698351897335,"length":211367},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo1.jpg","started":1698352108705,"length":10000},{"item":"CONTEUDO\/MIDIAINDOOR\/xpropabox telas itens manual.png","started":1698352118712,"length":10097},{"item":"CONTEUDO\/MIDIAINDOOR\/0050_Doaçao de cesta.mp4","started":1698352128809,"length":20761}]}}, 1, 0
+[ 26/10/2023 05:29:43 PM ] Mqtt publishing
+[ 26/10/2023 05:29:42 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:29:42 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:29:42 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2808107008,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 05:29:42 PM ] Mqtt publishing
+[ 26/10/2023 05:27:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:27:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:27:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[]}}, 1, 0
+[ 26/10/2023 05:27:43 PM ] Mqtt publishing
+[ 26/10/2023 05:27:42 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:27:42 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:27:42 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885009,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2808107008,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 05:27:42 PM ] Mqtt publishing
+[ 26/10/2023 05:25:55 PM ] 
+[ 26/10/2023 05:25:55 PM ] ========== Finalizando execução do cron ==========
+[ 26/10/2023 05:25:55 PM ] 
+[ 26/10/2023 05:25:54 PM ] Verificando novos dispositivos
+[ 26/10/2023 05:25:54 PM ] 
+[ 26/10/2023 05:25:54 PM ] ========== Executando cron ==========
+[ 26/10/2023 05:25:54 PM ] 
+[ 26/10/2023 05:25:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:25:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:25:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo1.jpg","started":1698351815494,"length":10001},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo2.jpg","started":1698351825499,"length":10000},{"item":"CONTEUDO\/MIDIAINDOOR\/xpropabox telas itens manual.png","started":1698351835500,"length":10002},{"item":"CONTEUDO\/MIDIAINDOOR\/0050_Doaçao de cesta.mp4","started":1698351845502,"length":20820},{"item":"CONTEUDO\/MIDIAINDOOR\/0060_Evento Musical_nov_23.mp4","started":1698351866325,"length":31008}]}}, 1, 0
+[ 26/10/2023 05:25:43 PM ] Mqtt publishing
+[ 26/10/2023 05:25:42 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:25:42 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:25:42 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885009,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916633,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2808107008,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 05:25:42 PM ] Mqtt publishing
+[ 26/10/2023 05:23:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:23:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:23:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","started":1698351604048,"length":211441}]}}, 1, 0
+[ 26/10/2023 05:23:43 PM ] Mqtt publishing
+[ 26/10/2023 05:23:42 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:23:42 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:23:42 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2808098816,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo1.jpg","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 05:23:42 PM ] Mqtt publishing
+[ 26/10/2023 05:21:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:21:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:21:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/0060_Evento Musical_nov_23.mp4","started":1698351573055,"length":30990}]}}, 1, 0
+[ 26/10/2023 05:21:43 PM ] Mqtt publishing
+[ 26/10/2023 05:21:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:21:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:21:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885009,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916633,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2808098816,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 05:21:43 PM ] Mqtt publishing
+[ 26/10/2023 05:19:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:19:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:19:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","started":1698351320781,"length":211280},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo2.jpg","started":1698351532081,"length":10070},{"item":"CONTEUDO\/MIDIAINDOOR\/xpropabox telas itens manual.png","started":1698351542151,"length":10002},{"item":"CONTEUDO\/MIDIAINDOOR\/0050_Doaçao de cesta.mp4","started":1698351552156,"length":20898}]}}, 1, 0
+[ 26/10/2023 05:19:43 PM ] Mqtt publishing
+[ 26/10/2023 05:19:42 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:19:42 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:19:42 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2808066048,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/0060_Evento Musical_nov_23.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 05:19:42 PM ] Mqtt publishing
+[ 26/10/2023 05:19:23 PM ] 
+[ 26/10/2023 05:19:23 PM ] ========== Finalizando execução do cron ==========
+[ 26/10/2023 05:19:23 PM ] 
+[ 26/10/2023 05:19:22 PM ] Verificando novos dispositivos
+[ 26/10/2023 05:19:22 PM ] 
+[ 26/10/2023 05:19:22 PM ] ========== Executando cron ==========
+[ 26/10/2023 05:19:22 PM ] 
+[ 26/10/2023 05:17:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:17:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:17:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[]}}, 1, 0
+[ 26/10/2023 05:17:43 PM ] Mqtt publishing
+[ 26/10/2023 05:17:42 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:17:42 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:17:42 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2808098816,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 05:17:42 PM ] Mqtt publishing
+[ 26/10/2023 05:15:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:15:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:15:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","started":1698351058421,"length":211419},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo1.jpg","started":1698351269844,"length":10001},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo2.jpg","started":1698351279850,"length":10001},{"item":"CONTEUDO\/MIDIAINDOOR\/xpropabox telas itens manual.png","started":1698351289851,"length":10002},{"item":"CONTEUDO\/MIDIAINDOOR\/0050_Doaçao de cesta.mp4","started":1698351299856,"length":20909}]}}, 1, 0
+[ 26/10/2023 05:15:43 PM ] Mqtt publishing
+[ 26/10/2023 05:15:42 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:15:42 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:15:42 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885009,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2808111104,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 05:15:42 PM ] Mqtt publishing
+[ 26/10/2023 05:14:15 PM ] 
+[ 26/10/2023 05:14:15 PM ] ========== Finalizando execução do cron ==========
+[ 26/10/2023 05:14:15 PM ] 
+[ 26/10/2023 05:14:14 PM ] Verificando novos dispositivos
+[ 26/10/2023 05:14:14 PM ] 
+[ 26/10/2023 05:14:14 PM ] ========== Executando cron ==========
+[ 26/10/2023 05:14:14 PM ] 
+[ 26/10/2023 05:13:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:13:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:13:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[]}}, 1, 0
+[ 26/10/2023 05:13:43 PM ] Mqtt publishing
+[ 26/10/2023 05:13:42 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:13:42 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:13:42 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885009,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916633,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2808111104,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 05:13:42 PM ] Mqtt publishing
+[ 26/10/2023 05:11:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:11:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:11:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","started":1698350775089,"length":211560},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo1.jpg","started":1698350986653,"length":10001},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo2.jpg","started":1698350996660,"length":10001},{"item":"CONTEUDO\/MIDIAINDOOR\/0050_Doaçao de cesta.mp4","started":1698351006669,"length":20760},{"item":"CONTEUDO\/MIDIAINDOOR\/0060_Evento Musical_nov_23.mp4","started":1698351027430,"length":30990}]}}, 1, 0
+[ 26/10/2023 05:11:43 PM ] Mqtt publishing
+[ 26/10/2023 05:11:42 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:11:42 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:11:42 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916633,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2808111104,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 05:11:42 PM ] Mqtt publishing
+[ 26/10/2023 05:10:43 PM ] 
+[ 26/10/2023 05:10:43 PM ] ========== Finalizando execução do cron ==========
+[ 26/10/2023 05:10:43 PM ] 
+[ 26/10/2023 05:10:43 PM ] Verificando novos dispositivos
+[ 26/10/2023 05:10:43 PM ] 
+[ 26/10/2023 05:10:43 PM ] ========== Executando cron ==========
+[ 26/10/2023 05:10:43 PM ] 
+[ 26/10/2023 05:09:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:09:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:09:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[]}}, 1, 0
+[ 26/10/2023 05:09:43 PM ] Mqtt publishing
+[ 26/10/2023 05:09:42 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:09:42 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:09:42 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885009,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916633,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2808115200,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 05:09:42 PM ] Mqtt publishing
+[ 26/10/2023 05:07:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:07:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:07:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/0050_Doaçao de cesta.mp4","started":1698350723235,"length":20833},{"item":"CONTEUDO\/MIDIAINDOOR\/0060_Evento Musical_nov_23.mp4","started":1698350744072,"length":31017}]}}, 1, 0
+[ 26/10/2023 05:07:43 PM ] Mqtt publishing
+[ 26/10/2023 05:07:42 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:07:42 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:07:42 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885009,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916633,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2803286016,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 05:07:42 PM ] Mqtt publishing
+[ 26/10/2023 05:05:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:05:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:05:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","started":1698350491799,"length":211402},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo1.jpg","started":1698350703205,"length":10000},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo2.jpg","started":1698350713207,"length":10001}]}}, 1, 0
+[ 26/10/2023 05:05:43 PM ] Mqtt publishing
+[ 26/10/2023 05:05:42 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:05:42 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:05:42 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2803286016,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/0050_Doaçao de cesta.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 05:05:42 PM ] Mqtt publishing
+[ 26/10/2023 05:04:08 PM ] 
+[ 26/10/2023 05:04:08 PM ] ========== Finalizando execução do cron ==========
+[ 26/10/2023 05:04:08 PM ] 
+[ 26/10/2023 05:04:07 PM ] Verificando novos dispositivos
+[ 26/10/2023 05:04:07 PM ] 
+[ 26/10/2023 05:04:07 PM ] ========== Executando cron ==========
+[ 26/10/2023 05:04:07 PM ] 
+[ 26/10/2023 05:03:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:03:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:03:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[]}}, 1, 0
+[ 26/10/2023 05:03:43 PM ] Mqtt publishing
+[ 26/10/2023 05:03:42 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:03:42 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:03:42 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2803286016,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 05:03:42 PM ] Mqtt publishing
+[ 26/10/2023 05:01:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:01:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:01:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","started":1698350198761,"length":211261},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo1.jpg","started":1698350410024,"length":10001},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo2.jpg","started":1698350420024,"length":10002},{"item":"CONTEUDO\/MIDIAINDOOR\/xpropabox telas itens manual.png","started":1698350430027,"length":10000},{"item":"CONTEUDO\/MIDIAINDOOR\/0050_Doaçao de cesta.mp4","started":1698350440030,"length":20810},{"item":"CONTEUDO\/MIDIAINDOOR\/0060_Evento Musical_nov_23.mp4","started":1698350460841,"length":30954}]}}, 1, 0
+[ 26/10/2023 05:01:43 PM ] Mqtt publishing
+[ 26/10/2023 05:01:42 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 05:01:42 PM ] Mqtt publish object count: 1
+[ 26/10/2023 05:01:42 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2803286016,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 05:01:42 PM ] Mqtt publishing
+[ 26/10/2023 05:00:14 PM ] 
+[ 26/10/2023 05:00:14 PM ] ========== Finalizando execução do cron ==========
+[ 26/10/2023 05:00:14 PM ] 
+[ 26/10/2023 05:00:11 PM ] Verificando novos dispositivos
+[ 26/10/2023 05:00:11 PM ] 
+[ 26/10/2023 05:00:11 PM ] ========== Executando cron ==========
+[ 26/10/2023 05:00:11 PM ] 
+[ 26/10/2023 04:59:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 04:59:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 04:59:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[]}}, 1, 0
+[ 26/10/2023 04:59:43 PM ] Mqtt publishing
+[ 26/10/2023 04:59:42 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 04:59:42 PM ] Mqtt publish object count: 1
+[ 26/10/2023 04:59:42 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885009,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2803290112,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 04:59:42 PM ] Mqtt publishing
+[ 26/10/2023 04:57:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 04:57:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 04:57:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[{"item":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","started":1698349946401,"length":211359},{"item":"CONTEUDO\/MIDIAINDOOR\/tela-exemplo1.jpg","started":1698350157764,"length":10001},{"item":"CONTEUDO\/MIDIAINDOOR\/xpropabox telas itens manual.png","started":1698350167780,"length":10116},{"item":"CONTEUDO\/MIDIAINDOOR\/0050_Doaçao de cesta.mp4","started":1698350177896,"length":20851}]}}, 1, 0
+[ 26/10/2023 04:57:43 PM ] Mqtt publishing
+[ 26/10/2023 04:57:42 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 04:57:42 PM ] Mqtt publish object count: 1
+[ 26/10/2023 04:57:42 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885008,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2803290112,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 04:57:42 PM ] Mqtt publishing
+[ 26/10/2023 04:55:43 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 04:55:43 PM ] Mqtt publish object count: 1
+[ 26/10/2023 04:55:43 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"playStatistics","success":true,"result":{"statistics":[]}}, 1, 0
+[ 26/10/2023 04:55:43 PM ] Mqtt publishing
+[ 26/10/2023 04:55:42 PM ] Inserção no banco OK => 1 linhas
+[ 26/10/2023 04:55:42 PM ] Mqtt publish object count: 1
+[ 26/10/2023 04:55:42 PM ] Mqtt msg received /RESP/20323354F8C6/API, {"command":"deviceInfo","success":true,"result":{"macAddress":"20:32:33:54:F8:C6","androidVersion":"7.1.2","deviceId":"625185d4fda711ab","uptime":1698267885007,"deviceName":"STV-3000PRO-NDOOHR_v1.1","appUptime":1698267916632,"softwareVersion":"4.4.7","softwareVersionCode":231,"hardwareModel":"STV-3000","storageSpaceFree":2803290112,"storageSpaceTotal":4594073600,"lastDisplayedFile":"CONTEUDO\/MIDIAINDOOR\/CIDADE DE VITÓRIA-ES _ Vitória Espírito Santo Brasil - Pontos turísticos _ Aerial View.mp4","ipAddressInternal":"192.168.0.100","timeZone":"America\/Recife","rooted":true,"deviceOwner":false,"deviceAdmin":false,"lockTaskApplication":false,"lockTaskMode":false,"currentVolume":100,"currentPlaylist":"CONTEUDO","currentScreenLayout":"TELA CHEIA"}}, 1, 0
+[ 26/10/2023 04:55:42 PM ] Mqtt publishing
+[ 26/10/2023 04:54:17 PM ] Subscribing
+[ 26/10/2023 04:54:17 PM ] Setting handler
+[ 26/10/2023 04:54:17 PM ] Connected to server ssl://550616c685364cf38062f7f3b14ed330.s1.eu.hivemq.cloud:8883
+[ 26/10/2023 04:54:16 PM ] Error during watchdog, disconnecting: Connection Refused: bad user name or password
+[ 26/10/2023 04:54:14 PM ] 
+[ 26/10/2023 04:54:14 PM ] ========== Executando cron ==========
+[ 26/10/2023 04:54:14 PM ] 

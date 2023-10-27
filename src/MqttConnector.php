@@ -18,6 +18,11 @@ class MqttConnector
         $this->server_data = $data;
     }
 
+    public function getServerId(): string
+    {
+        return $this->server_id;
+    }
+
     public function run()
     {
 
@@ -35,10 +40,12 @@ class MqttConnector
                 if (!($result)) {
                     Logger::getInstance()->add("Error connecting to server " . $this->server_data['server_address'][0]);
                     update_post_meta($this->server_id, CustomPostTypes::META_SERVER_LAST_CONNECTION_STATUS, 'error');
+                    CustomPostTypes::update_last_five_connections( $this->server_id, 0);
                     return;
                 } else {
                     Logger::getInstance()->add("Connected to server " . $this->server_data['server_address'][0]);
                     update_post_meta($this->server_id, CustomPostTypes::META_SERVER_LAST_CONNECTION_STATUS, 'success');
+                    CustomPostTypes::update_last_five_connections( $this->server_id, 1);
                 }
 
                 $this->mqtt = $mqtt;
