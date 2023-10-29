@@ -37,9 +37,6 @@ class SubscribeCallback extends MessageHandler
                 return;
             }
 
-            $numObjs = count($publish_objectarr);
-            Logger::getInstance()->add("Mqtt publish object count: {$numObjs}");
-
             foreach($publish_objectarr as $publish_object) {
                 $utc = date_format(new \DateTime(), 'Y-m-d H:i:s');
                 $result = $wpdb->insert(

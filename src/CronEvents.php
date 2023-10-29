@@ -40,6 +40,7 @@ class CronEvents
         $processor->verifyNewDevices();
 
         Database::cleanTableData();
+        Database::pruneStatsTable();
 
         Logger::getInstance()->add("");
         Logger::getInstance()->add("========== Finalizando execução do cron ==========");

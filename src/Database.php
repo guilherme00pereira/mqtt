@@ -77,14 +77,16 @@ class Database
         return 0;
     }
 
-    public static function selectStatisticsAllDevices()
+    public static function getDistinctContent(): array
     {
         global $wpdb;
+        return $wpdb->get_col("select distinct(content) from " . Plugin::getInstance()->prefixTableName('stats'));
+    }
 
-        $sql = "select s.device_id, s.content, s.started, s.length, p.post_title as device_name from " . Plugin::getInstance()->prefixTableName('stats') . " s
-         inner join " . $wpdb->prefix . "posts p on p.ID = s.device_id
-          group by s.content order by s.content ASC";
-        return $wpdb->get_results($sql);
+    public static function getDistinctDevicesNames()
+    {
+        global $wpdb;
+        return $wpdb->get_results("select ID, post_title as name from " . $wpdb->prefix . "posts where post_type = 'dispositivo' order by post_title ASC");
     }
 
     public static function getDeviceStatistics( $post_id )
@@ -102,7 +104,7 @@ class Database
     {
         global $wpdb;
 
-        $rows = $wpdb->get_results($wpdb->prepare("select * from " . Plugin::getInstance()->prefixTableName('stats') . " where device_id = %d and content = %s and started = %s and length = %d", $id, $content, $begin, $minutes));
+        $rows = $wpdb->get_results($wpdb->prepare("select id from " . Plugin::getInstance()->prefixTableName('stats') . " where device_id = %d and content = %s and started = %s and length = %d", $id, $content, $begin, $minutes));
         if (count($rows) > 0) {
             return;
         }
@@ -116,5 +118,21 @@ class Database
         global $wpdb;
         $wpdb->query("delete from " . Plugin::getInstance()->prefixTableName("data") . " where utc < DATE_SUB(NOW(), INTERVAL 1 DAY)");
 
+    }
+
+    public static function pruneStatsTable()
+    {
+        global $wpdb;
+
+        $result = $wpdb->get_results("select * from " . Plugin::getInstance()->prefixTableName("stats") . "order by id DESC", ARRAY_A);
+        $valid_rows = [];
+        foreach ($result as $row) {
+            $hash = md5($row['device_id'] . $row['content'] . $row['started'] . $row['length']);
+            if (!isset($valid_rows[$hash])) {
+                $valid_rows[$hash] = $row;
+            } else {
+                $wpdb->query($wpdb->prepare("delete from " . Plugin::getInstance()->prefixTableName("stats") . " where id = %d", $row['id']));
+            }
+        }
     }
 }

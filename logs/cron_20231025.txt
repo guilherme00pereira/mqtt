@@ -1,7 +1,0 @@
-[ 25/10/2023 06:35:43 PM ] Subscribing
-[ 25/10/2023 06:35:43 PM ] Setting handler
-[ 25/10/2023 06:35:43 PM ] Connected to server ssl://550616c685364cf38062f7f3b14ed330.s1.eu.hivemq.cloud:8883
-[ 25/10/2023 06:35:41 PM ] Error during watchdog, disconnecting: Connection Refused: bad user name or password
-[ 25/10/2023 06:35:40 PM ] 
-[ 25/10/2023 06:35:40 PM ] ========== Executando cron ==========
-[ 25/10/2023 06:35:40 PM ] 
