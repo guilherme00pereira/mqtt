@@ -124,7 +124,7 @@ class Database
     {
         global $wpdb;
 
-        $result = $wpdb->get_results("select * from " . Plugin::getInstance()->prefixTableName("stats") . "order by id DESC", ARRAY_A);
+        $result = $wpdb->get_results("select * from " . Plugin::getInstance()->prefixTableName("stats") . " order by id DESC", ARRAY_A);
         $valid_rows = [];
         foreach ($result as $row) {
             $hash = md5($row['device_id'] . $row['content'] . $row['started'] . $row['length']);

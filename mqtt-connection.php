@@ -2,7 +2,7 @@
 /*
 Plugin Name: Conexão MQTT - Cadastro de Servidor
 Description: Plugin para cadastro de servidores MQTT
-Version: 0.3.2
+Version: 0.3.3
 Author: G28 - Guilherme Pereira
 Namespace: G28\MqttConnection
 */
