@@ -8,9 +8,11 @@ if (!class_exists('WP_List_Table')) {
 
 class ListStatistics extends \WP_List_Table
 {
+    private static ?string $device_id;
 
-    public function __construct()
+    public function __construct($device_id = null)
     {
+        self::$device_id = $device_id;
         parent::__construct([
             'singular' => __('Estatística', 'g28-mqtt-connection'),
             'plural' => __('Estatísticas', 'g28-mqtt-connection'),
@@ -22,12 +24,39 @@ class ListStatistics extends \WP_List_Table
     {
         global $wpdb;
 
+        $used_where = false;
+
         $sql = "select s.device_id, s.content, s.started, s.length, p.post_title as device_name from "
             . Plugin::getInstance()->prefixTableName('stats') . " s
             inner join " . $wpdb->prefix . "posts p on p.ID = s.device_id";
 
-        if(!empty($_REQUEST['stats_content_ddl'])) {
-            $sql .= " where s.content = '" . esc_sql($_REQUEST['stats_content_ddl']) . "'";
+        if (!empty($_REQUEST['stats_device_ddl'])) {
+            $sql .= " where s.device_id = '" . esc_sql($_REQUEST['stats_device_ddl']) . "'";
+            $used_where = true;
+        }
+
+        if (!empty($_REQUEST['stats_content_ddl'])) {
+            $sql .= $used_where ? " and s.content = '" : " where s.content = '";
+            $sql .= esc_sql($_REQUEST['stats_content_ddl']) . "'";
+            $used_where = true;
+        }
+
+        if (!empty($_REQUEST['start_date'])) {
+            $sql .= $used_where ? " and s.started >= '" : " where s.started >= '";
+            $sql .= esc_sql($_REQUEST['start_date']) . "'";
+            $used_where = true;
+        }
+
+        if (!empty($_REQUEST['end_date'])) {
+            $sql .= $used_where ? " and s.started <= '" : " where s.started <= '";
+            $sql .= esc_sql($_REQUEST['end_date']) . "'";
+            $used_where = true;
+        }
+
+        if (self::$device_id) {
+            $sql .= $used_where ? " and s.device_id = '" : " where s.device_id = '";
+            $sql .= esc_sql(self::$device_id) . "'";
+
         }
 
         if (!empty($_REQUEST['orderby'])) {
@@ -46,11 +75,37 @@ class ListStatistics extends \WP_List_Table
     public static function record_count(): ?string
     {
         global $wpdb;
+        $used_where = false;
 
         $sql = "SELECT COUNT(*) FROM " . Plugin::getInstance()->prefixTableName('stats');
 
-        if(!empty($_REQUEST['stats_content_ddl'])) {
-            $sql .= " where content = '" . esc_sql($_REQUEST['stats_content_ddl']) . "'";
+        if (!empty($_REQUEST['stats_device_ddl'])) {
+            $sql .= " where device_id = '" . esc_sql($_REQUEST['stats_device_ddl']) . "'";
+            $used_where = true;
+        }
+
+        if (!empty($_REQUEST['stats_content_ddl'])) {
+            $sql .= $used_where ? " and content = '" : " where content = '";
+            $sql .= esc_sql($_REQUEST['stats_content_ddl']) . "'";
+            $used_where = true;
+        }
+
+        if (!empty($_REQUEST['start_date'])) {
+            $sql .= $used_where ? " and started >= '" : " where started >= '";
+            $sql .= esc_sql($_REQUEST['start_date']) . "'";
+            $used_where = true;
+        }
+
+        if (!empty($_REQUEST['end_date'])) {
+            $sql .= $used_where ? " and started <= '" : " where started <= '";
+            $sql .= esc_sql($_REQUEST['end_date']) . "'";
+            $used_where = true;
+        }
+
+        if (self::$device_id) {
+            $sql .= $used_where ? " and device_id = '" : " where device_id = '";
+            $sql .= esc_sql(self::$device_id) . "'";
+
         }
 
         return $wpdb->get_var($sql);
@@ -64,7 +119,6 @@ class ListStatistics extends \WP_List_Table
     public function column_default($item, $column_name)
     {
         switch ($column_name) {
-            case 'device_name':
             case 'content':
             case 'started':
                 return $item[$column_name];
@@ -73,9 +127,14 @@ class ListStatistics extends \WP_List_Table
         }
     }
 
-    public function column_length( $item ): string
+    public function column_device_name($item): string
     {
-        return date('i:s', (int)$item['length']) . ' minutos';
+        return '<a href="' . admin_url('post.php?post=' . $item['device_id']) . '&action=edit">' . $item['device_name'] . '</a>';
+    }
+
+    public function column_length($item): string
+    {
+        return date('i:s', (int) $item['length']) . ' minutos';
     }
 
     public function get_columns(): array
@@ -94,45 +153,53 @@ class ListStatistics extends \WP_List_Table
             'device_name' => array('device_name', true),
             'content' => array('content', false),
             'started' => array('started', false),
-            );
+        );
     }
 
     public function extra_tablenav($which)
     {
         global $wpdb;
 
-        if("top" !== $which) {
+        if ("top" !== $which) {
             return;
         }
 
-        $contens = Database::getDistinctContent();
-        $devices = Database::getDistinctDevicesNames()
-        ?>
-        <div style="padding-bottom: 25px;">
-            <label for="stats_device_ddl">Dispositivos: </label>
-            <select id="stats_device_ddl" name="stats_device_ddl" style="width: 200px; margin-right: 20px;">
-                <option value="">Selecione</option>
-                <?php foreach ($devices as $device): ?>
-                    <option value="<?php echo $device->ID; ?>"><?php echo $device->name; ?></option>
-                <?php endforeach; ?>
-            </select>
+        if (is_null(self::$device_id)) {
+            $contens = Database::getDistinctContent();
+            $devices = Database::getDistinctDevicesNames()
+                ?>
+            <div style="padding-bottom: 25px;">
+                <label for="stats_device_ddl">Dispositivos: </label>
+                <select id="stats_device_ddl" name="stats_device_ddl" style="width: 200px; margin-right: 20px;">
+                    <option value="">Selecione</option>
+                    <?php foreach ($devices as $device): ?>
+                        <option value="<?php echo $device->ID; ?>"><?php echo $device->name; ?></option>
+                    <?php endforeach; ?>
+                </select>
 
-            <label for="stats_content_ddl">Arquivos: </label>
-            <select id="stats_content_ddl" name="stats_content_ddl" style="width: 200px; margin-right: 20px;">
-                <option value="">Selecione</option>
-                <?php foreach ($contens as $content): ?>
-                    <option value="<?php echo $content; ?>"><?php echo $content; ?></option>
-                <?php endforeach; ?>
-            </select>
+                <label for="stats_content_ddl">Arquivos: </label>
+                <select id="stats_content_ddl" name="stats_content_ddl" style="width: 200px; margin-right: 20px;">
+                    <option value="">Selecione</option>
+                    <?php foreach ($contens as $content): ?>
+                        <option value="<?php echo $content; ?>"><?php echo $content; ?></option>
+                    <?php endforeach; ?>
+                </select>
 
-            <label for="start_date">Início:</label>
-            <input type="date" name="start_date" id="start_date" value="<?php echo esc_attr(isset($_REQUEST['start_date']) ? $_REQUEST['start_date'] : ''); ?>" style=" margin-right: 20px;">
+                <label for="start_date">Início:</label>
+                <input type="date" name="start_date" id="start_date"
+                    value="<?php echo esc_attr(isset($_REQUEST['start_date']) ? $_REQUEST['start_date'] : ''); ?>"
+                    style=" margin-right: 20px;">
 
-            <label for="end_date">Fim:</label>
-            <input type="date" name="end_date" id="end_date" value="<?php echo esc_attr(isset($_REQUEST['end_date']) ? $_REQUEST['end_date'] : ''); ?>" style=" margin-right: 20px;">
-        <?php
-        submit_button( 'Filtrar', 'secondary', 'filter_action', false, array( 'id' => 'post-query-submit' ));
-        ?> </div> <?php
+                <label for="end_date">Fim:</label>
+                <input type="date" name="end_date" id="end_date"
+                    value="<?php echo esc_attr(isset($_REQUEST['end_date']) ? $_REQUEST['end_date'] : ''); ?>"
+                    style=" margin-right: 20px;">
+                <?php
+                submit_button('Filtrar', 'secondary', 'filter_action', false, array('id' => 'post-query-submit'));
+                ?>
+            </div>
+            <?php
+        }
     }
 
     public function prepare_items()

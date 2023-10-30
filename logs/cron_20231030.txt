@@ -1,0 +1,9 @@
+[ 30/10/2023 10:05:27 AM ] 
+[ 30/10/2023 10:05:27 AM ] ========== Finalizando execução do cron ==========
+[ 30/10/2023 10:05:27 AM ] 
+[ 30/10/2023 10:05:27 AM ] Verificando novos dispositivos
+[ 30/10/2023 10:05:27 AM ] Error during watchdog, disconnecting: Failed to connect to ssl://550616c685364cf38062f7f3b14ed330.s1.eu.hivemq.cloud:8883
+[ 30/10/2023 09:54:27 AM ] Error during watchdog, disconnecting: Failed to connect to ssl://e7375572.ala.us-east-1.emqxsl.com:8883
+[ 30/10/2023 09:46:43 AM ] 
+[ 30/10/2023 09:46:43 AM ] ========== Executando cron ==========
+[ 30/10/2023 09:46:43 AM ] 

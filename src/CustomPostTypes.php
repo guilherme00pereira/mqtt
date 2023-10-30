@@ -200,8 +200,10 @@ class CustomPostTypes
 
     public function render_device_stats($post)
     {
+        $stats = new ListStatistics( $post->ID );
+        $stats->prepare_items();
         ob_start();
-        include_once sprintf("%sdevice-stats.php", Plugin::getInstance()->getTemplateDir());
+        $stats->display();
         echo ob_get_clean();
     }
 

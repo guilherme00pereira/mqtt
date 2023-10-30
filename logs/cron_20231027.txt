@@ -1,0 +1,23 @@
+[ 27/10/2023 10:44:00 AM ] Subscribing
+[ 27/10/2023 10:44:00 AM ] Setting handler
+[ 27/10/2023 10:44:00 AM ] Connected to server ssl://e7375572.ala.us-east-1.emqxsl.com:8883
+[ 27/10/2023 10:43:59 AM ] 
+[ 27/10/2023 10:43:59 AM ] ========== Executando cron ==========
+[ 27/10/2023 10:43:59 AM ] 
+[ 27/10/2023 10:40:49 AM ] 
+[ 27/10/2023 10:40:49 AM ] ========== Executando cron ==========
+[ 27/10/2023 10:40:49 AM ] 
+[ 27/10/2023 10:38:04 AM ] 
+[ 27/10/2023 10:38:04 AM ] ========== Executando cron ==========
+[ 27/10/2023 10:38:04 AM ] 
+[ 27/10/2023 10:33:54 AM ] Error during watchdog, disconnecting: Failed to connect to ssl://e7375572.ala.us-east-1.emqxsl.com:8883
+[ 27/10/2023 10:26:11 AM ] 
+[ 27/10/2023 10:26:11 AM ] ========== Executando cron ==========
+[ 27/10/2023 10:26:11 AM ] 
+[ 27/10/2023 10:16:03 AM ] 
+[ 27/10/2023 10:16:03 AM ] ========== Executando cron ==========
+[ 27/10/2023 10:16:03 AM ] 
+[ 27/10/2023 10:15:46 AM ] Error during watchdog, disconnecting: Failed to connect to ssl://e7375572.ala.us-east-1.emqxsl.com:8883
+[ 27/10/2023 10:08:03 AM ] 
+[ 27/10/2023 10:08:03 AM ] ========== Executando cron ==========
+[ 27/10/2023 10:08:03 AM ] 
